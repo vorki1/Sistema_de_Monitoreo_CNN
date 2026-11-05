@@ -1,0 +1,1808 @@
+{
+  "parte": 1,
+  "total_partes": 6,
+  "instrumentos": [
+    {
+      "Identificador": 85447,
+      "Nombre_TAG": "CNN-3200-LI_32220",
+      "Descripcion": "NIVEL TRASPASO CV02",
+      "TAG_OPC": "SERVER_OSS01M::LI_32220/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CV_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 79930,
+      "Nombre_TAG": "CNN-3200-LIT32780.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 1",
+      "TAG_OPC": "SERVER_OSS01M::LI_32780/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 33045,
+      "Nombre_TAG": "CNN-3200-SIT32485.%PV",
+      "Descripcion": "% VELOCIDAD RODILLO FIJO PRENSA DE RODILLOS 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::OPC_PP01/OPC_ACE.ROLLS_SPEED_PV1",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 33044,
+      "Nombre_TAG": "CNN-3200-SI_32485.%VEL",
+      "Descripcion": "% VELOCIDAD RODILLO MÓVIL HPGR 1",
+      "TAG_OPC": "SERVER_OSS01M::OPC_PP01/OPC_ACE.ROLLS_SPEED_PV2",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 22256,
+      "Nombre_TAG": "CNN-3200-PP_0001_COMP_DOSIF.VALUE",
+      "Descripcion": "% APERTURA COMPUERTA DOSIFICADORA HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_KHD/Prensa_Rodillos.Q_DB40_DBW60",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 22183,
+      "Nombre_TAG": "CNN-3200-PP_0002_COMP.PV",
+      "Descripcion": "% APERTURA COMPUERTA HPGR PP-02 PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_KHD_PP002/KHD_Cuaternario.Q_DB40_DBW60",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9207,
+      "Nombre_TAG": "CNN-3300-LI_33153.PV",
+      "Descripcion": "SENSOR DE NIVEL L2",
+      "TAG_OPC": "SERVER_OSS01M::LI_33153/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_15",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9206,
+      "Nombre_TAG": "CNN-3300-LI_33151.PV",
+      "Descripcion": "SENSOR DE NIVEL L1",
+      "TAG_OPC": "SERVER_OSS01M::LI_33151/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_15",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9105,
+      "Nombre_TAG": "CNN-3200-ZI_32035_Eth.PV",
+      "Descripcion": "ALTURA POSTE CH. 1°",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32035_Eth/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9080,
+      "Nombre_TAG": "CNN-3200-WI_32661.PV",
+      "Descripcion": "NIVEL TOLVÍN HPGR PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::WI_32661/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9079,
+      "Nombre_TAG": "CNN-3200-WI32430.PV",
+      "Descripcion": "NIVEL TOLVÍN HPGR 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::WI_32430/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9041,
+      "Nombre_TAG": "CNN-3200-MAG_0002.PV",
+      "Descripcion": "MAGNETOMETRO CV012",
+      "TAG_OPC": "SERVER_OSS01M::3200_MAG_0002/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9040,
+      "Nombre_TAG": "CNN-3200-MAG_0001.PV",
+      "Descripcion": "MAGNETOMETRO CV015",
+      "TAG_OPC": "SERVER_OSS01M::3200_MAG_0001/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9034,
+      "Nombre_TAG": "CNN-3200-LIC32661_OS.PV",
+      "Descripcion": "NIVEL TOLVÍN PP02 OVERSHOOT",
+      "TAG_OPC": "SERVER_OSS01M::LIC32661/PID_cpm.Overshoot#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9033,
+      "Nombre_TAG": "CNN-3200-LIC32661_CPI.PV",
+      "Descripcion": "NIVEL TOLVÍN PP02 CPI",
+      "TAG_OPC": "SERVER_OSS01M::LIC32661/PID_cpm.CPI#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9032,
+      "Nombre_TAG": "CNN-3200-LI_32386.PV",
+      "Descripcion": "NIVEL LIC_32386 TOLVA PP01 PV",
+      "TAG_OPC": "SERVER_OSS01M::LI_32386/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "BI-02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9031,
+      "Nombre_TAG": "CNN-3200-DATA_OPC_3.PV",
+      "Descripcion": "NIVEL LIC_32386 TOLVA PP01 MV",
+      "TAG_OPC": "SERVER_OSS01M::DATA_OPC_3/OPC_13210.AI_1",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9030,
+      "Nombre_TAG": "CNN-3200-LI_32785.PV",
+      "Descripcion": "NIVEL TOLVA SN_07",
+      "TAG_OPC": "SERVER_OSS01M::LI_32785/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9029,
+      "Nombre_TAG": "CNN-3200-LI_32784.PV",
+      "Descripcion": "NIVEL TOLVA SN_06",
+      "TAG_OPC": "SERVER_OSS01M::LI_32784/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 88964,
+      "Nombre_TAG": "CNN-3300-MM2_Ton_Seca_Alim.PV",
+      "Descripcion": "Cálculo tonelada seca Alimentación  MM2",
+      "TAG_OPC": "SERVER_OSS01M::Ton_Seca_M02/AI.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 88596,
+      "Nombre_TAG": "CNN-3300-LI_34615",
+      "Descripcion": "Indicacion de Nivel  Cajon 3400_BX_1004",
+      "TAG_OPC": "SERVER_OSS01M::LI_34615/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "BX_1004",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 88595,
+      "Nombre_TAG": "CNN-3300-LI_33584",
+      "Descripcion": "Indicacion de Nivel  Cajon 3300_BX_1001",
+      "TAG_OPC": "SERVER_OSS01M::LI_33584/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "BX_1001",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 88594,
+      "Nombre_TAG": "CNN-3300-LI_33562",
+      "Descripcion": "Indicacion de Nivel  Cajon 3300_BX_1002",
+      "TAG_OPC": "SERVER_OSS01M::LI_33562/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "BX_1002",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 18050,
+      "Nombre_TAG": "CNN-4110-DIT0715.SOL",
+      "Descripcion": "Solido EVT",
+      "TAG_OPC": "SERVER_OSS01M::4140-DIT-0715_MEDIDAS1_PV_A_DC",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 14053,
+      "Nombre_TAG": "CNN-3300-A1_YC.PV",
+      "Descripcion": "FeDTT% ANALIZADOR DE FIERRO CV15",
+      "TAG_OPC": "SERVER_OSS01M::OPC_analizador_CV15/OPC.AI_3",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_15",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9604,
+      "Nombre_TAG": "CNN-3100-LI_31422.PV",
+      "Descripcion": "NIVEL TK AGUA RED DE INCENDIO ÁREA SECA 3100-TK-1105",
+      "TAG_OPC": "SERVER_OSS01M::LI_31422/AI_PA.PV_Out#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9603,
+      "Nombre_TAG": "CNN-3100-LI_31412.PV",
+      "Descripcion": "NIVEL TK AGUA RED DE INCENDIO 3100-TK-1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_31412/AI_PA.PV_Out#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9602,
+      "Nombre_TAG": "CNN-3100-LI_31326.PV",
+      "Descripcion": "NIVEL TK AGUA POTABLE 3100-TK-1103",
+      "TAG_OPC": "SERVER_OSS01M::LI_31326/AI_PA.PV_Out#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9601,
+      "Nombre_TAG": "CNN-3100-LI_31000.PV",
+      "Descripcion": "NIVEL TK AGUA LLENADO DE CAMIONES 3100-TK-1106",
+      "TAG_OPC": "SERVER_OSS01M::LI_31000/AI_PA.PV_Out#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9028,
+      "Nombre_TAG": "CNN-3200-LI_32783.PV",
+      "Descripcion": "NIVEL TOLVA SN_05",
+      "TAG_OPC": "SERVER_OSS01M::LI_32783/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9027,
+      "Nombre_TAG": "CNN-3200-LI_32782.PV",
+      "Descripcion": "NIVEL TOLVA SN_04",
+      "TAG_OPC": "SERVER_OSS01M::LI_32782/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9026,
+      "Nombre_TAG": "CNN-3200-LI_32781.PV",
+      "Descripcion": "NIVEL TOLVA SN_03",
+      "TAG_OPC": "SERVER_OSS01M::LI_32781/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9025,
+      "Nombre_TAG": "CNN-3200-LI_32780.PV",
+      "Descripcion": "NIVEL TOLVA SN_02",
+      "TAG_OPC": "SERVER_OSS01M::LI_32780/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9024,
+      "Nombre_TAG": "CNN-3200-LI_32168.PV",
+      "Descripcion": "NIVEL ACOPIO GRUESO",
+      "TAG_OPC": "SERVER_OSS01M::LI_32168/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9023,
+      "Nombre_TAG": "CNN-3200-LI_32039_Eth.PV",
+      "Descripcion": "NIVEL ACEITE LUBRICACIÓN CR01",
+      "TAG_OPC": "SERVER_OSS01M::LI_32039_Eth/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9412,
+      "Nombre_TAG": "CNN-3400-RP_L2.PV",
+      "Descripcion": "% RECUPERACION PESO EN MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::3400_RP_L2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9411,
+      "Nombre_TAG": "CNN-3400-RP_L1.PV",
+      "Descripcion": "% RECUPERACION PESO EN MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::3400_RP_L1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9022,
+      "Nombre_TAG": "CNN-3200-LI_32004.PV",
+      "Descripcion": "NIVEL CÁMARA DE COMPENSACIÓN CR01",
+      "TAG_OPC": "SERVER_OSS01M::LI_32004/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6314,
+      "Nombre_TAG": "CNN-3200-LIT32002.PV",
+      "Descripcion": "Indicacion Nivel, Tolva de Alimentacion Chancador Primario",
+      "TAG_OPC": "SERVER_OSS01M::LI_32002/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6313,
+      "Nombre_TAG": "CNN-3200-LIT32003.PV",
+      "Descripcion": "Indicacion Nivel, Tolva de Compensacion Chancador Primario",
+      "TAG_OPC": "SERVER_OSS01M::LI_32003/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6312,
+      "Nombre_TAG": "CNN-3200-LIT32004.PV",
+      "Descripcion": "Indicacion Nivel, Tolva de Compensacion Chancador Primario",
+      "TAG_OPC": "SERVER_OSS01M::LI_32004/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6308,
+      "Nombre_TAG": "CNN-3200-LIT32168.PV",
+      "Descripcion": "Indicacion Nivel, Pila de Aopio de Gruesos",
+      "TAG_OPC": "SERVER_OSS01M::LI_32168/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6288,
+      "Nombre_TAG": "CNN-3200-ZIT32035.PV",
+      "Descripcion": "Posicion del poste",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32035_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CV_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6260,
+      "Nombre_TAG": "CNN-3200-ZIT32493A.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32493A/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6259,
+      "Nombre_TAG": "CNN-3200-ZIT32493B.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32493B/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6257,
+      "Nombre_TAG": "CNN-3200-JIT32700.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::JI_32700/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6256,
+      "Nombre_TAG": "CNN-3200-JIT32706.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::JI_32706/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6255,
+      "Nombre_TAG": "CNN-3200-LIT32593.PV",
+      "Descripcion": "NIVEL TOLVA ALIMENTACIÓN PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::LI_32593/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6253,
+      "Nombre_TAG": "CNN-3200-LIT32781.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 2",
+      "TAG_OPC": "SERVER_OSS01M::LI_32781/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6252,
+      "Nombre_TAG": "CNN-3200-LIT32782.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 3",
+      "TAG_OPC": "SERVER_OSS01M::LI_32782/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6251,
+      "Nombre_TAG": "CNN-3200-LIT32783.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 4",
+      "TAG_OPC": "SERVER_OSS01M::LI_32783/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6250,
+      "Nombre_TAG": "CNN-3200-LIT32784.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 5",
+      "TAG_OPC": "SERVER_OSS01M::LI_32784/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6249,
+      "Nombre_TAG": "CNN-3200-LIT32785.PV",
+      "Descripcion": "Nivel Tolva Harneros Cuaternarios. Tolva 6",
+      "TAG_OPC": "SERVER_OSS01M::LI_32785/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6221,
+      "Nombre_TAG": "CNN-3200-WIT32661.PV",
+      "Descripcion": "NIVEL TOLVIN HPGR PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::WI_32661/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6219,
+      "Nombre_TAG": "CNN-3200-ZIT0007.PV",
+      "Descripcion": "Indicacion Posicion, Tolva de Harneros Cuaternario 3200-BI-0003",
+      "TAG_OPC": "SERVER_OSS01M::ZI_0007/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI_03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6216,
+      "Nombre_TAG": "CNN-3200-ZIT32722.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32722A/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6215,
+      "Nombre_TAG": "CNN-3200-ZIT32723.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32723B/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6214,
+      "Nombre_TAG": "CNN-3200-ZIT32799.PV",
+      "Descripcion": "Indicacion Posicion, Tolva de Harneros Cuaternario 3200-BI-0003",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32799/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI_03",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6212,
+      "Nombre_TAG": "CNN-3200-JIT32470.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::JI_32470/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6211,
+      "Nombre_TAG": "CNN-3200-JIT32476.PV",
+      "Descripcion": "Indicacion Posicion, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::JI_32476/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6207,
+      "Nombre_TAG": "CNN-3200-LIT32386.PV",
+      "Descripcion": "Indicacion Nivel, Tolva de Alimentacion 3200_BI_0002",
+      "TAG_OPC": "SERVER_OSS01M::LI_32386/AI_PA.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "BI_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4574,
+      "Nombre_TAG": "CNN-3200-LIC32386.PV",
+      "Descripcion": "NIVEL TOLVA PP01 PV",
+      "TAG_OPC": "SERVER_OSS01M::LI_32386/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "BI-02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4573,
+      "Nombre_TAG": "CNN-3200-LIC33430.PV",
+      "Descripcion": "CONTROL NIVEL TOLVÍN 3200-PP-0001",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4571,
+      "Nombre_TAG": "CNN-3200-LIC32661.PV",
+      "Descripcion": "CONTROL NIVEL TOLVÍN 3200-PP-0002 PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::LIC32661/PID.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9395,
+      "Nombre_TAG": "CNN-3400-Solido_in_Sumi2.PV",
+      "Descripcion": "% DE SOLIDO EN SUMIDERO MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::Solido_in_Sumi2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9394,
+      "Nombre_TAG": "CNN-3400-Solido_in_Sumi1.PV",
+      "Descripcion": "% DE SOLIDO EN SUMIDERO MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::Solido_in_Sumi1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9393,
+      "Nombre_TAG": "CNN-3400-Solido_in_Hidroc2.PV",
+      "Descripcion": "% SOLIDO EN HIDROCICLON 2",
+      "TAG_OPC": "SERVER_OSS01M::Solido_in_Hidroc2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "CY_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9392,
+      "Nombre_TAG": "CNN-3400-Solido_in_Hidroc1.PV",
+      "Descripcion": "% SOLIDO EN HIDROCICLON 1",
+      "TAG_OPC": "SERVER_OSS01M::Solido_in_Hidroc1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "CY_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9211,
+      "Nombre_TAG": "CNN-3300-Apilador_Data_2_POSICION.PV",
+      "Descripcion": "POSICIÓN TRASLACIÓN APILADOR",
+      "TAG_OPC": "SERVER_OSS01M::Apilador_Data_2/Pos_Traslacion.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9210,
+      "Nombre_TAG": "CNN-3300-Apilador_Data_2_GRADOS.PV",
+      "Descripcion": "GRADOS INCLINACIÓN APILADOR",
+      "TAG_OPC": "SERVER_OSS01M::Apilador_Data_2/Pos_Elev_Pluma.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9209,
+      "Nombre_TAG": "CNN-3300-LI_33476B.PV",
+      "Descripcion": "NIVEL BX0013_B",
+      "TAG_OPC": "SERVER_OSS01M::LI_33476B/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9208,
+      "Nombre_TAG": "CNN-3300-LI_33476A.PV",
+      "Descripcion": "NIVEL BX0013_A",
+      "TAG_OPC": "SERVER_OSS01M::LI_33476A/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9039,
+      "Nombre_TAG": "CNN-3300-LIC33430.STD",
+      "Descripcion": "NIVEL TOLVÍN PP01 DESVIACIÓN ESTÁNDAR",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID_cpm.PV_StdDev#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9038,
+      "Nombre_TAG": "CNN-3300-LIC33430.OS",
+      "Descripcion": "NIVEL TOLVÍN PP01 OVERSHOOT",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID_cpm.Overshoot#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9037,
+      "Nombre_TAG": "CNN-3300-LIC33430.MV_AVG",
+      "Descripcion": "NIVEL TOLVÍN PP01 VALOR MEDIO MV",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID_cpm.MV_Mean#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9036,
+      "Nombre_TAG": "CNN-3300-LIC33430.ERR",
+      "Descripcion": "NIVEL TOLVÍN PP01 VALOR MEDIO ER",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID_cpm.ER_Mean#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 9035,
+      "Nombre_TAG": "CNN-3300-LIC33430.CPI",
+      "Descripcion": "NIVEL TOLVÍN PP01 CPI",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID_cpm.CPI#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6419,
+      "Nombre_TAG": "CNN-3100-LIT31422.PV",
+      "Descripcion": "Indicacion De nivel, Agua red de incendio area seca",
+      "TAG_OPC": "SERVER_OSS01M::LI_31422/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6418,
+      "Nombre_TAG": "CNN-3300-LIT33151.PV",
+      "Descripcion": "Indicacion Flujo, Agua de Mezcla a Estanque 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_33151/AI_PA.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6417,
+      "Nombre_TAG": "CNN-3300-LIT33153.PV",
+      "Descripcion": "Indicacion Flujo, Agua de Mezcla a Estanque 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_33153/AI_PA.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6416,
+      "Nombre_TAG": "CNN-3300-LIT33476A.PV",
+      "Descripcion": "Indicacion Flujo, Agua de Mezcla a Estanque 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_33476A/AI_PA.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6415,
+      "Nombre_TAG": "CNN-3300-LIT33476B.PV",
+      "Descripcion": "Indicacion Flujo, Agua de Mezcla a Estanque 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_33476B/AI_PA.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6414,
+      "Nombre_TAG": "CNN-3400-LIT34001.PV",
+      "Descripcion": "NIVEL SUMIDERO MOLINO 1 PV (INSTRUMENTO)",
+      "TAG_OPC": "SERVER_OSS01M::LI_34001/AI_PA.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6412,
+      "Nombre_TAG": "CNN-3400-LIT34251.PV",
+      "Descripcion": "NIVEL SUMIDERO MOLINO 2 (INSTRUMENTO)",
+      "TAG_OPC": "SERVER_OSS01M::LI_34251/AI_PA.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6394,
+      "Nombre_TAG": "CNN-3100-LIT31002.PV",
+      "Descripcion": "NIVEL ESTANQUE LAVADO CONCENTRADUCTO 3600_TK_1009",
+      "TAG_OPC": "SERVER_OSS01M::3100_LIT_31002/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6383,
+      "Nombre_TAG": "CNN-3100-LIT31001.PV",
+      "Descripcion": "Indicacion Nivel, Estanque de Almacenamiento Agua de Mezcla 3100_TK_1100",
+      "TAG_OPC": "SERVER_OSS01M::LI_31001/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6382,
+      "Nombre_TAG": "CNN-3100-LIT31205.PV",
+      "Descripcion": "Indicacion Nivel, Estanque de Almacenamiento Agua Tratada 3100_TK_1102",
+      "TAG_OPC": "SERVER_OSS01M::LI_31205/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6381,
+      "Nombre_TAG": "CNN-3100-LIT31326.PV",
+      "Descripcion": "Indicacion Nivel, Estanque de Almacenamiento Agua Potable 3100_TK_1103",
+      "TAG_OPC": "SERVER_OSS01M::LI_31326/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6380,
+      "Nombre_TAG": "CNN-3100-LIT31412.PV",
+      "Descripcion": "Indicacion Nivel, Estanque Agua Sistema Contra Incendio 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::LI_31412/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6369,
+      "Nombre_TAG": "CNN-3600-PIT36001.PV",
+      "Descripcion": "Indicacion Nivel, Espesador de Concentrado Magnetita 3600-TH-0001",
+      "TAG_OPC": "SERVER_OSS01M::PI_36001/CAI_Eth.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6210,
+      "Nombre_TAG": "CNN-3100-LIT31000.PV",
+      "Descripcion": "Indicacion Nivel, Tolva de Alimentacion 3200_BI_0002",
+      "TAG_OPC": "SERVER_OSS01M::LI_31000/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 6209,
+      "Nombre_TAG": "CNN-3100-LIT31012.PV",
+      "Descripcion": "Indicacion de Nivel, Piscina de Tratamiento de Aguas Servidas",
+      "TAG_OPC": "SERVER_OSS01M::LI_31012/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4670,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34001.MV",
+      "Descripcion": "CONTROL NIVEL SUMIDERO 3400-BX-0003 MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34001/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4666,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34621_PU_009.MV",
+      "Descripcion": "PRESIÓN HIDROSEPARADOR 1 MV",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34621_PU_009/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4665,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34621_PU_010.MV",
+      "Descripcion": "PRESIÓN HIDROSEPARADOR 1 MV",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34621_PU_010/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4657,
+      "Nombre_TAG": "CNN-3300-LIC33430.MV",
+      "Descripcion": "NIVEL TOLVÍN PP01 MV",
+      "TAG_OPC": "SERVER_OSS01M::LIC_33430/PID.MV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4586,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34001.PV",
+      "Descripcion": "NIVEL SUMIDERO MOLINO 1 PV",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34001/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4585,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34251.PV",
+      "Descripcion": "CONTROL NIVEL SUMIDERO 3400-BX-0004 MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34251/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4582,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34621_PU_009.PV",
+      "Descripcion": "CONTROL PRESION DE CAMA HIDROSEPARADOR 1 3400_PU_0009",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34621_PU_009/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 4581,
+      "Nombre_TAG": "CNN-3400-PID_LIC_34621_PU_010.PV",
+      "Descripcion": "CONTROL PRESION DE CAMA HIDROSEPARADOR 1 3400_PU_0010",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34621_PU_010/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_01",
+      "Unidad_de_Ingenieria": "%"
+    },
+    {
+      "Identificador": 17706,
+      "Nombre_TAG": "CNN-4140-TIT0712.PV",
+      "Descripcion": "Temperatura en TIT 0712",
+      "TAG_OPC": "SERVER_OSS01M::4140-TIT-0712_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17689,
+      "Nombre_TAG": "CNN-4110-TI20104.PV",
+      "Descripcion": "Temperatura 2 en Bomba 104",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI2-0104_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17688,
+      "Nombre_TAG": "CNN-4110-TI20103.PV",
+      "Descripcion": "Temperatura 2 en Bomba 103",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI2-0103_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17687,
+      "Nombre_TAG": "CNN-4110-TI20102.PV",
+      "Descripcion": "Temperatura 2 en Bomba 102",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI2-0102_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17686,
+      "Nombre_TAG": "CNN-4110-TI20101.PV",
+      "Descripcion": "Temperatura 2 en Bomba 101",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI2-0101_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17685,
+      "Nombre_TAG": "CNN-4110-TI0104.PV",
+      "Descripcion": "Temperatura 1 en Bomba 104",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI-0104_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17684,
+      "Nombre_TAG": "CNN-4110-TI0103.PV",
+      "Descripcion": "Temperatura 1 en Bomba 103",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI-0103_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17683,
+      "Nombre_TAG": "CNN-4110-TI0102.PV",
+      "Descripcion": "Temperatura 1 en Bomba 102",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI-0102_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17682,
+      "Nombre_TAG": "CNN-4110-TI0101.PV",
+      "Descripcion": "Temperatura 1 en Bomba 101",
+      "TAG_OPC": "SERVER_OSS01M::4110-TI-0101_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17603,
+      "Nombre_TAG": "CNN-3400-TE34033_2.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 3 MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::TE34033_2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17602,
+      "Nombre_TAG": "CNN-3400-TE34032_2.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 2 MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::TE34032_2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17601,
+      "Nombre_TAG": "CNN-3400-TE34031_2.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 1 MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::TE34031_2/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17600,
+      "Nombre_TAG": "CNN-3400-TE34033_1.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 3 MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::TE34033_1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17599,
+      "Nombre_TAG": "CNN-3400-TE34032_1.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 2 MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::TE34032_1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17598,
+      "Nombre_TAG": "CNN-3400-TE34031_1.TEMP",
+      "Descripcion": "TEMPERATURA PIÑON CORONA 1 MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::TE34031_1/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9624,
+      "Nombre_TAG": "CNN-3100-ER_0005.T3",
+      "Descripcion": "TEMPERATURA 3 SALA ELECTRICA 5",
+      "TAG_OPC": "SERVER_OSS01M::T3_ER_0005/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9623,
+      "Nombre_TAG": "CNN-3100-ER_0000.T3",
+      "Descripcion": "TEMPERATURA 3 SALA ELECTRICA 0",
+      "TAG_OPC": "SERVER_OSS01M::T3_ER_0000/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9622,
+      "Nombre_TAG": "CNN-3100-ER_0005.T2",
+      "Descripcion": "TEMPERATURA 2 SALA ELECTRICA 5",
+      "TAG_OPC": "SERVER_OSS01M::T2_ER_0005/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9619,
+      "Nombre_TAG": "CNN-3100-ER_0000.T2",
+      "Descripcion": "TEMPERATURA 2 SALA ELECTRICA 0",
+      "TAG_OPC": "SERVER_OSS01M::T2_ER_0000/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9618,
+      "Nombre_TAG": "CNN-3100-ER_0005.T1",
+      "Descripcion": "TEMPERATURA 1 SALA ELECTRICA 5",
+      "TAG_OPC": "SERVER_OSS01M::T1_ER_0005/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9613,
+      "Nombre_TAG": "CNN-3100-ER_0000.T1",
+      "Descripcion": "TEMPERATURA 1 SALA ELECTRICA 0",
+      "TAG_OPC": "SERVER_OSS01M::T1_ER_0000/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9076,
+      "Nombre_TAG": "CNN-3200-TI_32719.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO MÓVIL HPGR DE",
+      "TAG_OPC": "SERVER_OSS01M::TI_32719/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9075,
+      "Nombre_TAG": "CNN-3200-TI_32718.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO MÓVIL HPGR IZQ",
+      "TAG_OPC": "SERVER_OSS01M::TI_32718/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9074,
+      "Nombre_TAG": "CNN-3200-TI_32717.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO FIJO HPGR DE",
+      "TAG_OPC": "SERVER_OSS01M::TI_32717/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9073,
+      "Nombre_TAG": "CNN-3200-TI_32716.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO FIJO HPGR IZQ",
+      "TAG_OPC": "SERVER_OSS01M::TI_32716/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9072,
+      "Nombre_TAG": "CNN-3200-TI_32671.TEMP",
+      "Descripcion": "TEMPERATURA ACEITE HIDRÁULICO HPGR",
+      "TAG_OPC": "SERVER_OSS01M::TI_32671/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9071,
+      "Nombre_TAG": "CNN-3200-TI_32489.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO MÓVIL HPGR DE",
+      "TAG_OPC": "SERVER_OSS01M::TI_32489/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9070,
+      "Nombre_TAG": "CNN-3200-TI_32488.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO MÓVIL HPGR IZQ",
+      "TAG_OPC": "SERVER_OSS01M::TI_32488/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9069,
+      "Nombre_TAG": "CNN-3200-TI_32487.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO FIJO HPGR IZQ",
+      "TAG_OPC": "SERVER_OSS01M::TI_32487/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9068,
+      "Nombre_TAG": "CNN-3200-TI_32486.TEMP",
+      "Descripcion": "TEMPERATURA DESCANSO RODILLO FIJO HPGR DE",
+      "TAG_OPC": "SERVER_OSS01M::TI_32486/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9067,
+      "Nombre_TAG": "CNN-3200-TIT32440.PV2",
+      "Descripcion": "TEMPERATURA DEPOSITO ACEITE HIDRÁULICO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::TI_32440/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9045,
+      "Nombre_TAG": "CNN-3200-PIT32438.PV2",
+      "Descripcion": "PRESION LADO IZQUIERDO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::PI_32438/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 8957,
+      "Nombre_TAG": "CNN-3200-Vendor_METSO_LUM2.TEMP",
+      "Descripcion": "TEMPERATURA ACEITE LUB. CR02 LUM02",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_METSO/CR_0002.CRSHR_TIT6_ACT",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 8956,
+      "Nombre_TAG": "CNN-3200-Vendor_METSO_LUM1.TEMP",
+      "Descripcion": "TEMPERATURA ACEITE LUB. CR02 LUM01",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_METSO/CR_0002.CRSHR_TIT5_ACT",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6283,
+      "Nombre_TAG": "CNN-3200-TIT32445.PV",
+      "Descripcion": "Temperatura reductor PP_0001 rodillo movil",
+      "TAG_OPC": "SERVER_OSS01M::TI_32445/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6282,
+      "Nombre_TAG": "CNN-3200-TIT32455.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32455/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6281,
+      "Nombre_TAG": "CNN-3200-TIT32456.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32456/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6280,
+      "Nombre_TAG": "CNN-3200-TIT32465.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32465/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6279,
+      "Nombre_TAG": "CNN-3200-TIT32466.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32466/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6278,
+      "Nombre_TAG": "CNN-3200-TIT32467.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32467/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6277,
+      "Nombre_TAG": "CNN-3200-TIT32486.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32486/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6276,
+      "Nombre_TAG": "CNN-3200-TIT32487.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32487/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6275,
+      "Nombre_TAG": "CNN-3200-TIT32488.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32488/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6274,
+      "Nombre_TAG": "CNN-3200-TIT32489.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32489/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6273,
+      "Nombre_TAG": "CNN-3200-TIT32670_PP001.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32670_PP001/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6272,
+      "Nombre_TAG": "CNN-3200-TIT32686_PP001.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32686_PP001/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6271,
+      "Nombre_TAG": "CNN-3200-TIT32696_PP001.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32696_PP001/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6241,
+      "Nombre_TAG": "CNN-3200-TIT32670.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32670/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6240,
+      "Nombre_TAG": "CNN-3200-TIT32671.PV",
+      "Descripcion": "TEMPERATURA DEPOSITO ACEITE HIDRAULICO HPGR PP-02 PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::TI_32671/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6239,
+      "Nombre_TAG": "CNN-3200-TIT32673.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32673/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6238,
+      "Nombre_TAG": "CNN-3200-TIT32675.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32675/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6237,
+      "Nombre_TAG": "CNN-3200-TIT32685.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32685/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6236,
+      "Nombre_TAG": "CNN-3200-TIT32686.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32686/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6235,
+      "Nombre_TAG": "CNN-3200-TIT32695.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32695/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6234,
+      "Nombre_TAG": "CNN-3200-TIT32696.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32696/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6233,
+      "Nombre_TAG": "CNN-3200-TIT32697.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32697/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6232,
+      "Nombre_TAG": "CNN-3200-TIT32716.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32716/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6231,
+      "Nombre_TAG": "CNN-3200-TIT32717.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32717/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6230,
+      "Nombre_TAG": "CNN-3200-TIT32718.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32718/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6229,
+      "Nombre_TAG": "CNN-3200-TIT32719.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32719/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6197,
+      "Nombre_TAG": "CNN-3200-TIT32262.PV",
+      "Descripcion": "TEMPERATURA EJE CHANCADOR SECUNDARIO CR02",
+      "TAG_OPC": "SERVER_OSS01M::TI_32262_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6196,
+      "Nombre_TAG": "CNN-3200-TIT32269.PV",
+      "Descripcion": "TEMPERATURA CONTRAEJE CHANCADOR SECUNDARIO CR02",
+      "TAG_OPC": "SERVER_OSS01M::TI_32269_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6195,
+      "Nombre_TAG": "CNN-3200-TIT32275.PV",
+      "Descripcion": "Indicacion Temperatura, Sistema Lubricacion Chancador Secundario 3200_CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32275_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6194,
+      "Nombre_TAG": "CNN-3200-TIT32276.PV",
+      "Descripcion": "Indicacion Temperatura, Aire Enfriamiento Chancador Secundario 3200_CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32276_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6193,
+      "Nombre_TAG": "CNN-3200-TIT32277.PV",
+      "Descripcion": "Indicacion Temperatura, Sistema Lubricacion Chancador Secundario 3200_CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::TI_32277_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6192,
+      "Nombre_TAG": "CNN-3200-TIT32440.PV",
+      "Descripcion": "TEMPERATURA DEPOSITO ACEITE HIDRAULICO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::TI_32440/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9396,
+      "Nombre_TAG": "CNN-3400-BallMill_2.TEMP",
+      "Descripcion": "TEMPERATURA INTERCAMBIADOR DE CALOR MM02 MOLINO",
+      "TAG_OPC": "SERVER_OSS01M::BallMill_2/2.R_DB55_DB4_DBD44",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 9240,
+      "Nombre_TAG": "CNN-3300-Apilador_Data_2.TEMP",
+      "Descripcion": "TEMPERATURA HIDRÁULICO PLUMA",
+      "TAG_OPC": "SERVER_OSS01M::Apilador_Data_2/Tem_Aceite_Hidra.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6191,
+      "Nombre_TAG": "CNN-3200-TIT32441.PV",
+      "Descripcion": "Indicacion Temperatura, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::TI_32441/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 6190,
+      "Nombre_TAG": "CNN-3200-TIT32443.PV",
+      "Descripcion": "Temperatura reductor PP_0001 rodillo fijo",
+      "TAG_OPC": "SERVER_OSS01M::TI_32443/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "°C"
+    },
+    {
+      "Identificador": 17826,
+      "Nombre_TAG": "CNN-4110-DF0007.PV",
+      "Descripcion": "DESFLOCULADOR MAGNETICO",
+      "TAG_OPC": "SERVER_OSS01M::4110-DIC-0210_PID_PV_Out#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 17681,
+      "Nombre_TAG": "CNN-4110-PP0104.CUR",
+      "Descripcion": "Corriente en Bomba 104",
+      "TAG_OPC": "SERVER_OSS01M::4110-PP-0104_Vdf_UserAna1#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 17680,
+      "Nombre_TAG": "CNN-4110-PP0103.CUR",
+      "Descripcion": "Corriente en Bomba 103",
+      "TAG_OPC": "SERVER_OSS01M::4110-PP-0103_Vdf_UserAna1#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 17679,
+      "Nombre_TAG": "CNN-4110-PP0102.CUR",
+      "Descripcion": "Corriente en Bomba 102",
+      "TAG_OPC": "SERVER_OSS01M::4110-PP-0102_Vdf_UserAna1#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 17678,
+      "Nombre_TAG": "CNN-4110-PP0101.CUR",
+      "Descripcion": "Corriente en Bomba 101",
+      "TAG_OPC": "SERVER_OSS01M::4110-PP-0101_Vdf_UserAna1#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9612,
+      "Nombre_TAG": "CNN-3600-PP__1109.CUR",
+      "Descripcion": "CORRIENTE EN BOMBA 1109",
+      "TAG_OPC": "SERVER_OSS01M::3600_PP__1109/AI_PA.PV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9566,
+      "Nombre_TAG": "CNN-3810_PU_0003_TF.CUR",
+      "Descripcion": "CORRIENTE GEHO 3",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_TF/Corriente.PV#Value",
+      "Area": "3800",
+      "Subarea": "GEHO",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9564,
+      "Nombre_TAG": "CNN-3810_PU_0002_TF.CUR",
+      "Descripcion": "CORRIENTE GEHO 2",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_TF/Corriente.PV#Value",
+      "Area": "3800",
+      "Subarea": "GEHO",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9562,
+      "Nombre_TAG": "CNN-3810_PU_0001_TF.CUR",
+      "Descripcion": "CORRIENTE GEHO 1",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_TF/Corriente.PV#Value",
+      "Area": "3800",
+      "Subarea": "GEHO",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9549,
+      "Nombre_TAG": "CNN-3700-PU_0001.CUR",
+      "Descripcion": "CORRIENTE MOTOR BOMBA SUMERGIBLE DE RELAVES",
+      "TAG_OPC": "SERVER_OSS01M::3740_PU_0001/Corriente.PV#Value",
+      "Area": "3700",
+      "Subarea": "3740",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    }
+  ],
+  "_lambda_received_at": "2026-07-08T13:17:56.536300",
+  "_source_lambda": "cnnalerta1"
+}

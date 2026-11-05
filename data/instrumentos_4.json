@@ -1,0 +1,1878 @@
+{
+  "parte": 4,
+  "total_partes": 6,
+  "instrumentos": [
+    {
+      "Identificador": 6203,
+      "Nombre_TAG": "CNN-3200-PIT32439.PV",
+      "Descripcion": "PRESION LADO DERECHO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::PI_32439/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 22258,
+      "Nombre_TAG": "CNN-3200-PP_0001_GUILL.OP",
+      "Descripcion": "ABIERTO / CERRADO GUILLOTINA HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_KHD/Prensa_Rodillos.Q_DB40_DBX23_6",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 22180,
+      "Nombre_TAG": "CNN-3200-PP_0002_GUI.OP",
+      "Descripcion": "ESTADO GUILLOTINA HPGR PP-02 PRENSA CUATERNARIA",
+      "TAG_OPC": "SERVER_OSS01M::Vendor_KHD_PP002/KHD_Cuaternario.Q_DB40_DBX23_6",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9201,
+      "Nombre_TAG": "CNN-3300-FE_0043.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 43",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0043/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_43",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9200,
+      "Nombre_TAG": "CNN-3300-FE_0042.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 42",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0042/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_42",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9199,
+      "Nombre_TAG": "CNN-3300-FE_0041.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 41",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0041/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_41",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9198,
+      "Nombre_TAG": "CNN-3300-FE_0040.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 40",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0040/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_40",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9197,
+      "Nombre_TAG": "CNN-3300-FE_0039.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 39",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0039/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_39",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9196,
+      "Nombre_TAG": "CNN-3300-FE_0038.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 38",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0038/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_38",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9195,
+      "Nombre_TAG": "CNN-3300-FE_0037.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 37",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0037/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_37",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9194,
+      "Nombre_TAG": "CNN-3300-FE_0036.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 36",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0036/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_36",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9193,
+      "Nombre_TAG": "CNN-3300-FE_0035.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 35",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0035/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_35",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9192,
+      "Nombre_TAG": "CNN-3300-FE_0034.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 34",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0034/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_34",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9191,
+      "Nombre_TAG": "CNN-3300-FE_0033.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 33",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0033/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_33",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9190,
+      "Nombre_TAG": "CNN-3300-FE_0032.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 32",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0032/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_32",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9189,
+      "Nombre_TAG": "CNN-3300-FE_0031(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 31",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0031(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_31",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9188,
+      "Nombre_TAG": "CNN-3300-FE_0030.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 30",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0030/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_30",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9187,
+      "Nombre_TAG": "CNN-3300-FE_0029(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 29",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0029(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_29",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9186,
+      "Nombre_TAG": "CNN-3300-FE_0028(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 28",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0028(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_28",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9185,
+      "Nombre_TAG": "CNN-3300-FE_0027.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 27",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0027/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_27",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9184,
+      "Nombre_TAG": "CNN-3300-FE_0026(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 26",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0026(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_26",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9183,
+      "Nombre_TAG": "CNN-3300-FE_0025(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 25",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0025(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_25",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9182,
+      "Nombre_TAG": "CNN-3300-FE_0024.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 24",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0024/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_24",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9181,
+      "Nombre_TAG": "CNN-3300-FE_0023.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 23",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0023/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_23",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9180,
+      "Nombre_TAG": "CNN-3300-FE_0022.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 22",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0022/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_22",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9179,
+      "Nombre_TAG": "CNN-3300-FE_0021.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 21",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0021/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_21",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9178,
+      "Nombre_TAG": "CNN-3300-FE_0020.RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 20",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0020/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_20",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9177,
+      "Nombre_TAG": "CNN-3300-FE_0019(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 19",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0019(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_19",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9176,
+      "Nombre_TAG": "CNN-3300-FE_0018(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 18",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0018(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_18",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9175,
+      "Nombre_TAG": "CNN-3300-FE_0017(2).RUN",
+      "Descripcion": "RUN SIGNAL FEEDER 17",
+      "TAG_OPC": "SERVER_OSS01M::3300_FE_0017(2)/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "FE_17",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9145,
+      "Nombre_TAG": "CNN-3300-CV_0015.RUN",
+      "Descripcion": "RUNNING SIGNAL CV 15",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0015_VDF/M4.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_15",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9144,
+      "Nombre_TAG": "CNN-3200-CV_0014.RUN",
+      "Descripcion": "RUN SIGNAL CORREA 14",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0014/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_14",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9066,
+      "Nombre_TAG": "CNN-3200-Apilador_Data_1.RUN",
+      "Descripcion": "RUN SIGNAL APILADOR MÓVIL",
+      "TAG_OPC": "SERVER_OSS01M::Apilador_Data_1/AlarmByte20.Out8#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "SK_01",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9017,
+      "Nombre_TAG": "CNN-3200-FE_0016_MO.RUN",
+      "Descripcion": "RUNNING SIGNAL FEEDER 16",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0016_MO/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_16",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 9016,
+      "Nombre_TAG": "CNN-3200-FE_0009.RUN",
+      "Descripcion": "RUNNING SIGNAL FEEDER 09",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0009/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "FE_09",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 8986,
+      "Nombre_TAG": "CNN-3300-CV_0012.RUN",
+      "Descripcion": "RUN SIGNAL CORREA 12",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0012/M3.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_12",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 8975,
+      "Nombre_TAG": "CNN-3200-CV_0001_MO.RUN",
+      "Descripcion": "PARTIDA MOTOR CORREA CV_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0001/M4.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CV_01",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 8955,
+      "Nombre_TAG": "CNN-3200-CR_0002_MO.RUN",
+      "Descripcion": "RUN SIGNAL CHANCADOR SECUNDARIO",
+      "TAG_OPC": "SERVER_OSS01M::32000_CR_0002_MO/M2.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 8954,
+      "Nombre_TAG": "CNN-3200-CR_0001_MO.RUN",
+      "Descripcion": "PARTIDA CHANCADOR PRIMARIO CR_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0001_MO/M2.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 5756,
+      "Nombre_TAG": "CNN-3200-CV_0013_MO.RUN",
+      "Descripcion": "RUN SIGNAL CORREA 13",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0013_MO/M1.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_13",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 5754,
+      "Nombre_TAG": "CNN-3200-TR_0001_MO01.RUN",
+      "Descripcion": "RUN SIGNAL CORREA TRIPPER",
+      "TAG_OPC": "SERVER_OSS01M::3200_TR_0001_MO01/M1.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "TR_01",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 5752,
+      "Nombre_TAG": "CNN-3300-BH_0009_MO.RUN",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_MO/M1.RunSig#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "BH_09",
+      "Unidad_de_Ingenieria": "Bool"
+    },
+    {
+      "Identificador": 17698,
+      "Nombre_TAG": "CNN-4140-DIT0715.PV",
+      "Descripcion": "Densidad en DIT 0715",
+      "TAG_OPC": "SERVER_OSS01M::4140-DIT-0715_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "kg/m^3"
+    },
+    {
+      "Identificador": 9268,
+      "Nombre_TAG": "CNN-3400-DI_34250.PV",
+      "Descripcion": "DENSIDAD (DESDE ROUGHER II)_L2 HACIA MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::DI_34250/AI_PA.PV_Out#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "kg/m^3"
+    },
+    {
+      "Identificador": 8925,
+      "Nombre_TAG": "CNN-4110-DIT0210.PV",
+      "Descripcion": "Densidad en DIT 0210",
+      "TAG_OPC": "SERVER_OSS01M::4110-DIT-0210_AM_PV_Out#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kg/m^3"
+    },
+    {
+      "Identificador": 6444,
+      "Nombre_TAG": "CNN-3400-DIT34000.PV",
+      "Descripcion": "DENSIDAD (DESDE ROUGHER II)_L1 HACIA MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::DI_34000/AI_PA.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "kg/m^3"
+    },
+    {
+      "Identificador": 17708,
+      "Nombre_TAG": "CNN-4170-PIT0601B.PV",
+      "Descripcion": "Presion en PIT 0601B",
+      "TAG_OPC": "SERVER_OSS01M::4170-PIT-0601B_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4170",
+      "Sistema": "Estación de Monitoreo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17707,
+      "Nombre_TAG": "CNN-4170-PIT0601A.PV",
+      "Descripcion": "Presion en PIT 0601A",
+      "TAG_OPC": "SERVER_OSS01M::4170-PIT-0601A_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4170",
+      "Sistema": "Estación de Monitoreo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17705,
+      "Nombre_TAG": "CNN-4140-PIT0713.PV",
+      "Descripcion": "Presion en PIT 0713",
+      "TAG_OPC": "SERVER_OSS01M::4140-PIT-0713_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17704,
+      "Nombre_TAG": "CNN-4140-PIT0708.PV",
+      "Descripcion": "Presion en PIT 0708",
+      "TAG_OPC": "SERVER_OSS01M::4140-PIT-0708_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17696,
+      "Nombre_TAG": "CNN-4130-PIT0514.PV",
+      "Descripcion": "Presion en PIT 0514",
+      "TAG_OPC": "SERVER_OSS01M::4130-PIT-0514_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4130",
+      "Sistema": "Estación de Valvulas 2",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17695,
+      "Nombre_TAG": "CNN-4130-PIT0510.PV",
+      "Descripcion": "Presion en PIT 0510",
+      "TAG_OPC": "SERVER_OSS01M::4130-PIT-0510_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4130",
+      "Sistema": "Estación de Valvulas 2",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17693,
+      "Nombre_TAG": "CNN-4120-PIT0410.PV",
+      "Descripcion": "Presion en PIT 0410",
+      "TAG_OPC": "SERVER_OSS01M::4120-PIT-0410_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4120",
+      "Sistema": "Estación de Valvulas 1",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17692,
+      "Nombre_TAG": "CNN-4120-PIT0406.PV",
+      "Descripcion": "Presion en PIT 0406",
+      "TAG_OPC": "SERVER_OSS01M::4120-PIT-0406_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4120",
+      "Sistema": "Estación de Valvulas 1",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17677,
+      "Nombre_TAG": "CNN-4110-PIT0213.PV",
+      "Descripcion": "Presion en PIT 0213",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0213_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17676,
+      "Nombre_TAG": "CNN-4110-PIT0139.PV",
+      "Descripcion": "Presión el Linea de Salida Bomba 104",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0139_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17675,
+      "Nombre_TAG": "CNN-4110-PIT0138.PV",
+      "Descripcion": "Presión el Linea de Salida Bomba 103",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0138_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17674,
+      "Nombre_TAG": "CNN-4110-PIT0137.PV",
+      "Descripcion": "Presión el Linea de Salida Bomba 102",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0137_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17673,
+      "Nombre_TAG": "CNN-4110-PIT0136.PV",
+      "Descripcion": "Presión el Linea de Salida Bomba 101",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0136_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 17672,
+      "Nombre_TAG": "CNN-4110-PIT0014.PV",
+      "Descripcion": "Presion en PIT 0004",
+      "TAG_OPC": "SERVER_OSS01M::4110-PIT-0014_AM_PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "kPa"
+    },
+    {
+      "Identificador": 6376,
+      "Nombre_TAG": "CNN-3100-PIT31017.PV",
+      "Descripcion": "Indicacion Presion, Agua de Mezcla a Estanque 3100_TK_1101",
+      "TAG_OPC": "SERVER_OSS01M::PI_31017/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6375,
+      "Nombre_TAG": "CNN-3100-PIT31018.PV",
+      "Descripcion": "Indicacion Presion, Agua de Proceso a Celdas de Flotacion",
+      "TAG_OPC": "SERVER_OSS01M::PI_31018/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6374,
+      "Nombre_TAG": "CNN-3100-PIT31025.PV",
+      "Descripcion": "Indicacion Presion, Loop de Distribucion Agua Mezcla",
+      "TAG_OPC": "SERVER_OSS01M::PI_31025/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6373,
+      "Nombre_TAG": "CNN-3100-PIT31176.PV",
+      "Descripcion": "Indicacion Presion, Panel Neumatico 3100_JBN_83101",
+      "TAG_OPC": "SERVER_OSS01M::PI_31176/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6372,
+      "Nombre_TAG": "CNN-3100-PIT31177.PV",
+      "Descripcion": "Indicacion Presion, Panel Neumatico 3100_JBN_83102",
+      "TAG_OPC": "SERVER_OSS01M::PI_31177/AI.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6371,
+      "Nombre_TAG": "CNN-3100-PIT31210.PV",
+      "Descripcion": "Indicacion Presion, Red de Distribucion Agua Sello",
+      "TAG_OPC": "SERVER_OSS01M::PI_31210/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6370,
+      "Nombre_TAG": "CNN-3100-PIT31219.PV",
+      "Descripcion": "Indicacion Presion, Red de Distribucion Agua Sello",
+      "TAG_OPC": "SERVER_OSS01M::PI_31219/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6286,
+      "Nombre_TAG": "CNN-3100-PI_31023.PV",
+      "Descripcion": "Indicacion de presion Linea TK1009",
+      "TAG_OPC": "SERVER_OSS01M::3100_PI_31023/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 6285,
+      "Nombre_TAG": "CNN-3100-TPIT_AJ0.PV",
+      "Descripcion": "PRESION ESTANQUE ALJIBE",
+      "TAG_OPC": "SERVER_OSS01M::3100_PIT_AJ01/AI_PA.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "KPa"
+    },
+    {
+      "Identificador": 22185,
+      "Nombre_TAG": "CNN-3200-CR_0002_MO.PWR",
+      "Descripcion": "POTENCIA ACTIVA CR02",
+      "TAG_OPC": "SERVER_OSS01M::32000_CR_0002_MO/M2_SIPROTEC.P_ACTIVA",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Kw"
+    },
+    {
+      "Identificador": 8952,
+      "Nombre_TAG": "CNN-3200-CR_0001_MO.PWR",
+      "Descripcion": "POTENCIA ACTIVA CHANCADOR PRIMARIO CR_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0001_MO/M2_SIPRO.P_ACTIVA",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Kw"
+    },
+    {
+      "Identificador": 9322,
+      "Nombre_TAG": "CNN-3400-MCC_0002.PWR",
+      "Descripcion": "POTENCIA CONCENTRADORA MOLIENDA Y CLASIFICACIÓN MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::3400_MCC_0002/SIPRO_ALIM.P_ACTIVA",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "kW"
+    },
+    {
+      "Identificador": 9321,
+      "Nombre_TAG": "CNN-3400-MCC_0001.PWR",
+      "Descripcion": "POTENCIA CONCENTRADORA MOLIENDA Y CLASIFICACIÓN MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::3400_MCC_0001/SIPRO_ALIM.P_ACTIVA",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "kW"
+    },
+    {
+      "Identificador": 9110,
+      "Nombre_TAG": "CNN-3200-ZI_32799.PV",
+      "Descripcion": "SENSOR POSICIÓN LÁSER",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32799/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BI-03",
+      "Unidad_de_Ingenieria": "m"
+    },
+    {
+      "Identificador": 30724,
+      "Nombre_TAG": "CNN-3200-FE_0016_MO.VEL",
+      "Descripcion": "VELOCIDAD ALIMENTADOR FE016",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0016_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_16",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30722,
+      "Nombre_TAG": "CNN-3200-FE_0009.VEL",
+      "Descripcion": "VELOCIDAD ALIMENTADOR FE009",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0009/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "FE_09",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30716,
+      "Nombre_TAG": "CNN-3200-CV_0010_MO.VEL",
+      "Descripcion": "VELOCIDAD MOTOR CORREA TRANSPORTADORA CV10",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0010_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30714,
+      "Nombre_TAG": "CNN-3200-CV_0009_MO1.VEL",
+      "Descripcion": "VELOCIDAD MOTOR CORREA TRANSPORTADORA CV09",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0009_MO1/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_09",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30711,
+      "Nombre_TAG": "CNN-3200-CV_0006_MO_VDF.VEL",
+      "Descripcion": "VELOCIDAD MOTOR CORREA TRANSPORTADORA CV06",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0006_MO_VDF/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_06",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30708,
+      "Nombre_TAG": "CNN-3200-CV_0003_MO.VEL",
+      "Descripcion": "VELOCIDAD MOTOR CORREA TRANSPORTADORA CV03",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0003_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "CV_03",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30706,
+      "Nombre_TAG": "CNN-3200-CV_0002_MO.VEL",
+      "Descripcion": "VELOCIDAD MOTOR CORREA TRANSPORTADORA CV02",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0002_MO/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CV_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30704,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO02.VEL",
+      "Descripcion": "VELOCIDAD MOTOR MOVIL PP02",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO02/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30701,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO01.VEL",
+      "Descripcion": "VELOCIDAD MOTOR FIJO PP02",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO01$/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30699,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO02_VDF.VEL",
+      "Descripcion": "VELOCIDAD MOTOR MOVIL PP01",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO02_VDF/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30696,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO01_VDF.VEL",
+      "Descripcion": "VELOCIDAD MOTOR FIJO PP01",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO01_VDF/M4.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30668,
+      "Nombre_TAG": "CNN-3200-FE_0015_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE_0015",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0015_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_15",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30665,
+      "Nombre_TAG": "CNN-3200-FE_0014_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE_0014",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0014_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_14",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30662,
+      "Nombre_TAG": "CNN-3200-FE_0013_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE_0013",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0013_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_13",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30657,
+      "Nombre_TAG": "CNN-3200-FE_0011_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE_0011",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0011_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_11",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30656,
+      "Nombre_TAG": "CNN-3200-FE_0012_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE12",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0012_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_12",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 30653,
+      "Nombre_TAG": "CNN-3200-FE_0010_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE10",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0010_MO/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_10",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 22660,
+      "Nombre_TAG": "CNN-3200-FE_0005_MO.PV",
+      "Descripcion": "VELOCIDAD FEEDER FE05",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0005/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "FE_05",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 22659,
+      "Nombre_TAG": "CNN-3200-FE_0004_MO.PV",
+      "Descripcion": "VELOCIDAD FEEDER FE04",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0004/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "FE_04",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 22658,
+      "Nombre_TAG": "CNN-3200-FE_0003_MO.VEL",
+      "Descripcion": "VELOCIDAD FEEDER FE_0003",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0003/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "FE_03",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 22657,
+      "Nombre_TAG": "CNN-3200-FE_0002_MO.PV",
+      "Descripcion": "VELOCIDAD FEEDER FE02",
+      "TAG_OPC": "SERVER_OSS01M::3200_FE_0002/M3.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "FE_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 9061,
+      "Nombre_TAG": "CNN-3200-SI32418.PV",
+      "Descripcion": "VELOCIDAD FE09",
+      "TAG_OPC": "SERVER_OSS01M::SI_32418/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "FE_09",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 9060,
+      "Nombre_TAG": "CNN-3200-SI_32128.PV",
+      "Descripcion": "VELOCIDAD FE001",
+      "TAG_OPC": "SERVER_OSS01M::SI_32128/AI.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "FE_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6397,
+      "Nombre_TAG": "CNN-3200-SIT32886.PV",
+      "Descripcion": "Indicacion de Velocidad, Correa 3200_CV_0012",
+      "TAG_OPC": "SERVER_OSS01M::SI_32886_ANT/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_12",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6396,
+      "Nombre_TAG": "CNN-3200-SIT33101.PV",
+      "Descripcion": "VELOCIDAD CV14",
+      "TAG_OPC": "SERVER_OSS01M::SI_33101/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_14",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6299,
+      "Nombre_TAG": "CNN-3200-SIT32058.PV",
+      "Descripcion": "Velocidad del Chancador Primario",
+      "TAG_OPC": "SERVER_OSS01M::SI_32058_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6298,
+      "Nombre_TAG": "CNN-3200-SIT32128.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3200-FE-0001",
+      "TAG_OPC": "SERVER_OSS01M::SI_32128/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "FE_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6297,
+      "Nombre_TAG": "CNN-3200-SIT32140.PV",
+      "Descripcion": "VELOCIDAD CORREA CV01",
+      "TAG_OPC": "SERVER_OSS01M::SI_32140/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CV_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6246,
+      "Nombre_TAG": "CNN-3200-SIT32608.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3200-FE-0016",
+      "TAG_OPC": "SERVER_OSS01M::SI_32608/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "FE_16",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6245,
+      "Nombre_TAG": "CNN-3200-SIT32714.PV",
+      "Descripcion": "Indicacion Velocidad, Variador de Frecuencia Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::SI_32714/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6244,
+      "Nombre_TAG": "CNN-3200-SIT32715.PV",
+      "Descripcion": "Indicacion Velocidad, Variador de Frecuencia Prensa de Rodillos 3200_PP_0002",
+      "TAG_OPC": "SERVER_OSS01M::SI_32715/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6243,
+      "Nombre_TAG": "CNN-3200-SIT32760.PV",
+      "Descripcion": "Indicacion de Velocidad, Correa 3200-CV-0006",
+      "TAG_OPC": "SERVER_OSS01M::SI_32760/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_06",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6242,
+      "Nombre_TAG": "CNN-3200-SIT32871.PV",
+      "Descripcion": "Indicacion de Velocidad, Correa 3200-CV-0008",
+      "TAG_OPC": "SERVER_OSS01M::SI_32871/AI.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_08",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6432,
+      "Nombre_TAG": "CNN-3400-FIT34016.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::FI_34016/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6429,
+      "Nombre_TAG": "CNN-3400-FIT34266.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::FI_34266/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6426,
+      "Nombre_TAG": "CNN-3400-FIT34621.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::FI_34621/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6398,
+      "Nombre_TAG": "CNN-3400-PIT34270.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::PI_34270/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6333,
+      "Nombre_TAG": "CNN-3300-SIT33193.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::SI_33193/AI.PV#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6320,
+      "Nombre_TAG": "CNN-3400-VIT34920.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::VI_34920/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6319,
+      "Nombre_TAG": "CNN-3400-VIT34923.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::VI_34923/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 6318,
+      "Nombre_TAG": "CNN-3400-VIT34926.PV",
+      "Descripcion": "Indicacion de Velocidad, alimentador 3300_FE_0045",
+      "TAG_OPC": "SERVER_OSS01M::VI_34926/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "FE_45",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5510,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO07.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO07/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5509,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO08.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO08/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5508,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO10.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO10/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5507,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO11.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO11/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5506,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO12.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO12/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5505,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO13.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO13/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5504,
+      "Nombre_TAG": "CNN-3200-SN_0002_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0002_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5503,
+      "Nombre_TAG": "CNN-3200-SN_0003_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0003_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_03",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5502,
+      "Nombre_TAG": "CNN-3200-SN_0004_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0004_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_04",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5501,
+      "Nombre_TAG": "CNN-3200-SN_0005_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0005_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_05",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5500,
+      "Nombre_TAG": "CNN-3200-SN_0006_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0006_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_06",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5499,
+      "Nombre_TAG": "CNN-3200-SN_0007_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0007_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_07",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5497,
+      "Nombre_TAG": "CNN-3200-CV_0013_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0013_MO/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_13",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5495,
+      "Nombre_TAG": "CNN-3200-TR_0001_MO01.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_TR_0001_MO01/M1.PV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "TR_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5494,
+      "Nombre_TAG": "CNN-3300-BH_0009_CO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_CO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5493,
+      "Nombre_TAG": "CNN-3300-BH_0009_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5492,
+      "Nombre_TAG": "CNN-3300-BH_0009_MO02.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_MO02/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5491,
+      "Nombre_TAG": "CNN-3300-BH_0009_MO03.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_MO03/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5490,
+      "Nombre_TAG": "CNN-3100-PU_1101_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1101_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5489,
+      "Nombre_TAG": "CNN-3100-PU_1102_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1102_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5488,
+      "Nombre_TAG": "CNN-3100-PU_1103_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1103_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5487,
+      "Nombre_TAG": "CNN-3100-PU_1104_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1104_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5486,
+      "Nombre_TAG": "CNN-3100-PU_1105_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1105_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5485,
+      "Nombre_TAG": "CNN-3100-PU_1106_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1106_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5484,
+      "Nombre_TAG": "CNN-3100-PU_1107_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1107_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5483,
+      "Nombre_TAG": "CNN-3100-TH_0001_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_TH_0001_MO/M1.PV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5469,
+      "Nombre_TAG": "CNN-4110-PP_0110-MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::4110_PP_0110_MO/M1.PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5468,
+      "Nombre_TAG": "CNN-4110-PU_1112.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::4110_PU_1112/M1.PV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5444,
+      "Nombre_TAG": "CNN-3300-BH_0010-MO03.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0010_MO03/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5443,
+      "Nombre_TAG": "CNN-3300-BH_0010-MO04.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0010_MO04/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5442,
+      "Nombre_TAG": "CNN-3300-CN_0006_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0006_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5441,
+      "Nombre_TAG": "CNN-3300-CN_0007_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0007_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5440,
+      "Nombre_TAG": "CNN-3300-CN_0008_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0008_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5439,
+      "Nombre_TAG": "CNN-3300-CN_0009_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0009_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5438,
+      "Nombre_TAG": "CNN-3300-CN_0010-MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0010_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5437,
+      "Nombre_TAG": "CNN-3300-CN_0011_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0011_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5436,
+      "Nombre_TAG": "CNN-3300-CN_0012_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0012_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5435,
+      "Nombre_TAG": "CNN-3300-CV_0016_MO.VEL",
+      "Descripcion": "VELOCIDAD CORREA CV16",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0016_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5434,
+      "Nombre_TAG": "CNN-3300-CV_0017_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0017_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5433,
+      "Nombre_TAG": "CNN-3300-CV_0018.VEL",
+      "Descripcion": "VEL CV-018",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0018/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_18",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5432,
+      "Nombre_TAG": "CNN-3300-PU_0004_MO.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_PU_0004_MO/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5431,
+      "Nombre_TAG": "CNN-3300-SN_0010.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5430,
+      "Nombre_TAG": "CNN-3300-SN_0010-MO01.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010_MO01/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5429,
+      "Nombre_TAG": "CNN-3300-SN_0010-MO02.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010_MO02/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5428,
+      "Nombre_TAG": "CNN-3300-SN_0011.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0011/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5427,
+      "Nombre_TAG": "CNN-3300-SN_0011_MO01.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0011_MO01/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5426,
+      "Nombre_TAG": "CNN-3300-SN_0011_MO02.VEL",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0011_MO02/M1.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5415,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO01.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO01/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5414,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO02.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO02/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5413,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO03.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO03/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5412,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO04.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO04/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5411,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO05.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO05/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5410,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO06.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO06/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5409,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO07.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO07/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5408,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO09.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO09/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5407,
+      "Nombre_TAG": "CNN-3400-MM_0001_MO10.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_MO10/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5406,
+      "Nombre_TAG": "CNN-3400-MM_0002_HE01.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_HE01/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5405,
+      "Nombre_TAG": "CNN-3400-MM_0002_HE02.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_HE02/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5404,
+      "Nombre_TAG": "CNN-3400-MM_0002_HE03.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_HE03/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5403,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO01.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO01/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5402,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO02.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO02/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5399,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO03.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO03/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5398,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO04.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO04/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5397,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO05.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO05/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5396,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO06.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO06/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5395,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO07.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO07/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5394,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO09.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO09/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5393,
+      "Nombre_TAG": "CNN-3400-MM_0002_MO10.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0002_MO10/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5345,
+      "Nombre_TAG": "CNN-3400-HC_0001_MO.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_HC_0001_MO/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5344,
+      "Nombre_TAG": "CNN-3400-HC_0002_MO.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_HC_0002_MO/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_02",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5343,
+      "Nombre_TAG": "CNN-3400-MM_0001_HE01.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_HE01/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    },
+    {
+      "Identificador": 5342,
+      "Nombre_TAG": "CNN-3400-MM_0001_HE02.VEL",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3400_MM_0001_HE02/M1.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "m/s"
+    }
+  ],
+  "_lambda_received_at": "2026-07-08T13:18:08.226150",
+  "_source_lambda": "cnnalerta1"
+}

@@ -1,0 +1,20 @@
+{
+  "estadisticas": {
+    "sensores": {
+      "total": 1251,
+      "con_fallas": 25,
+      "porcentaje_con_fallas": 2.0
+    },
+    "cantidad_alertas": {
+      "preventivas": 22,
+      "criticas": 3,
+      "emergencias": 0
+    },
+    "sistema_mas_alertas": {
+      "sistema": "CR_01",
+      "cantidad_alertas": 15
+    }
+  },
+  "_lambda_received_at": "2026-07-08T13:48:35.951983",
+  "_source_lambda": "cnnalerta1"
+}

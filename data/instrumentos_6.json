@@ -1,0 +1,448 @@
+{
+  "parte": 6,
+  "total_partes": 6,
+  "instrumentos": [
+    {
+      "Identificador": 9234,
+      "Nombre_TAG": "CNN-3300-RG_0001.TOT",
+      "Descripcion": "TOTALIZADOR  RECHAZO ERAL LINEA 1",
+      "TAG_OPC": "SERVER_OSS01M::3300_RG_0001/AI_PA.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 4577,
+      "Nombre_TAG": "CNN-3300-WIC33200.PV",
+      "Descripcion": "ALIMENTACION A MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33200/PID.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 4576,
+      "Nombre_TAG": "CNN-3300-WIC33221.PV",
+      "Descripcion": "TONELAJE ALIMENTACION A MOLINO 2 PV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33221/PID.PV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 9242,
+      "Nombre_TAG": "CNN-3200-WI_32893.PV",
+      "Descripcion": "TONELAJE CORREA CV_0012",
+      "TAG_OPC": "SERVER_OSS01M::WI_32893/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_12",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 9092,
+      "Nombre_TAG": "CNN-3200-WQIT-32149.PV",
+      "Descripcion": "TPH 3200CV01",
+      "TAG_OPC": "SERVER_OSS01M::WQIT-32149/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CV_01",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 4569,
+      "Nombre_TAG": "CNN-3300-WIC_33138.PV",
+      "Descripcion": "CONTROL TONELAJE CORREA 3300-CV-0015",
+      "TAG_OPC": "SERVER_OSS01M::WI-33138/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_14",
+      "Unidad_de_Ingenieria": "T/h"
+    },
+    {
+      "Identificador": 9597,
+      "Nombre_TAG": "CNN-3300-WIC_33200.PV",
+      "Descripcion": "CONTROL TONELAJE 3300-CV-0016 CONCENTRADORA ROUGHER",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33200/PID.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_16",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 88961,
+      "Nombre_TAG": "CNN-3300-FinisherL2_Ton_Seca.PV",
+      "Descripcion": "Cálculo tonelada seca alimentación Finisher L2",
+      "TAG_OPC": "SERVER_OSS01M::Ton_Seca_Finish_L2/AI.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "CN_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 88960,
+      "Nombre_TAG": "CNN-3300-FinisherL1_Ton_Seca.PV",
+      "Descripcion": "Cálculo tonelada seca alimentación Finisher L1",
+      "TAG_OPC": "SERVER_OSS01M::Ton_Seca_Finish_L1/AI.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "CN_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9249,
+      "Nombre_TAG": "CNN-3300-WITQ-33200.TOT",
+      "Descripcion": "TONELAJE ACUMULADO CORREA 16",
+      "TAG_OPC": "SERVER_OSS01M::WITQ-33200/AI_DP.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_16",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9398,
+      "Nombre_TAG": "CNN-3400-Ton_Seca_M02.PV",
+      "Descripcion": "TONELAJE SECO MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::Ton_Seca_M02/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9397,
+      "Nombre_TAG": "CNN-3400-Ton_Seca_M01.PV",
+      "Descripcion": "TONELAJE SECO MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::Ton_Seca_M01/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9250,
+      "Nombre_TAG": "CNN-3300-WITQ-33221.TOT",
+      "Descripcion": "TONELAJE ACUMULADO CORREA 17",
+      "TAG_OPC": "SERVER_OSS01M::WITQ-33221/AI_DP.PV_Out#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_17",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9247,
+      "Nombre_TAG": "CNN-3300-WIC_33201.PV",
+      "Descripcion": "TONELAJE CV-17 PV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33221/PID.PV#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_17",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9246,
+      "Nombre_TAG": "CNN-3300-WIC_33201.MV",
+      "Descripcion": "TONELAJE CV-17 MV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33221/PID.MV#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_17",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4660,
+      "Nombre_TAG": "CNN-3400-WIC_33221.MV",
+      "Descripcion": "TONELAJE CV-17 MV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33221/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_17",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4656,
+      "Nombre_TAG": "CNN-3400-WIC4_PP_0001.MV",
+      "Descripcion": "TONELAJE EN CV_0004",
+      "TAG_OPC": "SERVER_OSS01M::WIC4_PP_0001/PID.MV#Value",
+      "Area": "3200",
+      "Subarea": "Chancada Terciario",
+      "Sistema": "CV_04",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4653,
+      "Nombre_TAG": "CNN-3400-WIC_33138_P.MV",
+      "Descripcion": "TONELAJE CV-15 MV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33138_P/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_15",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 32347,
+      "Nombre_TAG": "CNN-3200-WIT32878.PV_CCIRC_TOT",
+      "Descripcion": "TONELAJE CARGA CIRCULANTE TOTAL HPGR PP-02",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/TURNOB.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 32201,
+      "Nombre_TAG": "CNN-3200-WIT32878.PV_CCIRC_TOT_DIA",
+      "Descripcion": "TONELAJE CARGA CIRCULANTE HPGR PP-02_DIA",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/Total_Dia.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 30052,
+      "Nombre_TAG": "CNN-3200-C_CIR_32878.TOT",
+      "Descripcion": "TOTALIZADOR DÍA CARGA CIRCULANTE TONELAJE CORREA CV_0010",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/Total_Dia.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 30051,
+      "Nombre_TAG": "CNN-3200-C_CIR_32878.TOT_TURNO2",
+      "Descripcion": "TOTALIZADOR TURNO 02 CARGA CIRCULANTE TONELAJE CORREA CV_0010",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/TURNOB.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 30050,
+      "Nombre_TAG": "CNN-3200-C_CIR_32878.TOT_TURNO1",
+      "Descripcion": "TOTALIZADOR TURNO 01 CARGA CIRCULANTE TONELAJE CORREA CV_0010",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9599,
+      "Nombre_TAG": "CNN-3200-WIQT_32207.PV",
+      "Descripcion": "TONELAJE CV02",
+      "TAG_OPC": "SERVER_OSS01M::WIQT_32207/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CV_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9598,
+      "Nombre_TAG": "CNN-3300-WIC_33221.PV",
+      "Descripcion": "CONTROL TONELAJE 3300-CV-0017 CONCENTRADORA ROUGHER",
+      "TAG_OPC": "SERVER_OSS01M::WIC_33221/PID.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_17",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 9081,
+      "Nombre_TAG": "CNN-3200-WIT32878.PV2",
+      "Descripcion": "TONELAJE CORREA CV_0010",
+      "TAG_OPC": "SERVER_OSS01M::WI_32878/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 8951,
+      "Nombre_TAG": "CNN-3200-WIT32878.PV_CCIRC",
+      "Descripcion": "TONELAJE CARGA CIRCULANTE HPGR PP-02",
+      "TAG_OPC": "SERVER_OSS01M::C_CIR_32878/AI_DP.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 6395,
+      "Nombre_TAG": "CNN-3200-WIT32893.PV",
+      "Descripcion": "Indicacion Totalizacion Peso, correa 3200_CV_0012",
+      "TAG_OPC": "SERVER_OSS01M::WI_32893/AI_DP.PV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "CV_12",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 6265,
+      "Nombre_TAG": "CNN-3200-WIT32368.PV",
+      "Descripcion": "TONELAJE CV-04",
+      "TAG_OPC": "SERVER_OSS01M::WI_32368/AI_DP.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "CV_04",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 6264,
+      "Nombre_TAG": "CNN-3200-WIT32430.PV",
+      "Descripcion": "Indicacion Peso, Prensa de Rodillos 3200_PP_0001",
+      "TAG_OPC": "SERVER_OSS01M::WI_32430/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 6220,
+      "Nombre_TAG": "CNN-3200-WIT32878.PV",
+      "Descripcion": "TONELAJE CORREA CV-10",
+      "TAG_OPC": "SERVER_OSS01M::WI_32878/AI_DP.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4659,
+      "Nombre_TAG": "CNN-3200-WIC_32149.MV",
+      "Descripcion": "TONELAJE FEEDER 01 MV",
+      "TAG_OPC": "SERVER_OSS01M::WIC_32149/PID.MV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "FE_01",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4575,
+      "Nombre_TAG": "CNN-3200-WIC_32149.PV",
+      "Descripcion": "CONTROL TONELAJE 3200-FE-0001 CHANCADO PRIMARIO",
+      "TAG_OPC": "SERVER_OSS01M::WIC_32149/PID.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "FE_01",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 4572,
+      "Nombre_TAG": "CNN-3200-WIC4_PP_0001.PV",
+      "Descripcion": "TONELAJE EN CV_0004",
+      "TAG_OPC": "SERVER_OSS01M::WIC4_PP_0001/PID.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "CV_04",
+      "Unidad_de_Ingenieria": "Ton"
+    },
+    {
+      "Identificador": 18051,
+      "Nombre_TAG": "CNN-4110-DIT0715.GE",
+      "Descripcion": "Gravedad Especifica EVT",
+      "TAG_OPC": "SERVER_OSS01M::4140-DIT-0715_GE_V_1",
+      "Area": "4100",
+      "Subarea": "4140",
+      "Sistema": "Estación de Valvulas Terminal",
+      "Unidad_de_Ingenieria": "U"
+    },
+    {
+      "Identificador": 18047,
+      "Nombre_TAG": "CNN-4110-DIT0210.GE",
+      "Descripcion": "Gravedead especifica EBC",
+      "TAG_OPC": "SERVER_OSS01M::4110-DIT-0210_GE_V",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "U"
+    },
+    {
+      "Identificador": 9260,
+      "Nombre_TAG": "CNN-3400-CC_MM_0002.PV",
+      "Descripcion": "INDICADOR CARGA CIRCULANTE MM2",
+      "TAG_OPC": "SERVER_OSS01M::CC_MM_0002/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 9256,
+      "Nombre_TAG": "CNN-3400-CC_MM_0001.PV",
+      "Descripcion": "INDICADOR CARGA CIRCULANTE MM1",
+      "TAG_OPC": "SERVER_OSS01M::CC_MM_0001/AI.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4664,
+      "Nombre_TAG": "CNN-3400-PID_PIC_34220.MV",
+      "Descripcion": "PRESIÓN HIDROCICLONES MOLINO 1 MV",
+      "TAG_OPC": "SERVER_OSS01M::PID_PIC_34220/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4663,
+      "Nombre_TAG": "CNN-3400-PID_PIC_34270.MV",
+      "Descripcion": "PRESIÓN HIDROCICLONES MOLINO 2 MV",
+      "TAG_OPC": "SERVER_OSS01M::PID_PIC_34270/PID.MV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4584,
+      "Nombre_TAG": "CNN-3400-PIC34620_PU011.PV",
+      "Descripcion": "CONTROL PRESION DE CAMA HIDROSEPARADOR 2 3400_PU_0011",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34620_PU_011/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_02",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4583,
+      "Nombre_TAG": "CNN-3400-PIC34620_PU012.PV",
+      "Descripcion": "CONTROL PRESION DE CAMA HIDROSEPARADOR 2 3400_PU_0012",
+      "TAG_OPC": "SERVER_OSS01M::PID_LIC_34620_PU_012/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "HC_02",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4580,
+      "Nombre_TAG": "CNN-3400-PID_PIC_34220.PV",
+      "Descripcion": "CONTROL PRESIÓN HIDROCICLONES MOLINO 1",
+      "TAG_OPC": "SERVER_OSS01M::PID_PIC_34220/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_01",
+      "Unidad_de_Ingenieria": "Vacio"
+    },
+    {
+      "Identificador": 4579,
+      "Nombre_TAG": "CNN-3400-PID_PIC_34270.PV",
+      "Descripcion": "CONTROL PRESIÓN HIDROCICLONES MOLINO 2",
+      "TAG_OPC": "SERVER_OSS01M::PID_PIC_34270/PID.PV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "MM_02",
+      "Unidad_de_Ingenieria": "Vacio"
+    }
+  ],
+  "_lambda_received_at": "2026-07-08T13:18:15.985587",
+  "_source_lambda": "cnnalerta1"
+}

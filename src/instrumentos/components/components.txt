@@ -1,0 +1,3 @@
+En esta carpeta guardaras los componentes que iran dentro de tus paginas:
+Aca es donde hay botones que se conectan a tus funciones, además hay elementos como los sidebar, slidebar, navbar, etc
+Todo lo que te imagines, aca ocurre

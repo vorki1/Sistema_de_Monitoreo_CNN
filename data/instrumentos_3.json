@@ -1,0 +1,1838 @@
+{
+  "parte": 3,
+  "total_partes": 6,
+  "instrumentos": [
+    {
+      "Identificador": 4951,
+      "Nombre_TAG": "CNN-3400-PU_1003_M002.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_PU_1003_M002/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4950,
+      "Nombre_TAG": "CNN-3400-PU_1021_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_PU_1021_MO/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4949,
+      "Nombre_TAG": "CNN-3400-PU_1022_MO.CUR",
+      "Descripcion": "3760-PU-0004",
+      "TAG_OPC": "SERVER_OSS01M::3400_PU_1022_MO/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4948,
+      "Nombre_TAG": "CNN-3550-AG_1002_MO.CUR",
+      "Descripcion": "BOMBA UNIDAD HIDRAULICA ESPESADOR 01",
+      "TAG_OPC": "SERVER_OSS01M::3550_AG_1002_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4947,
+      "Nombre_TAG": "CNN-3550-PU_0021_MOVS_SPS.CUR",
+      "Descripcion": "BOMBA UNIDAD HIDRAULICA ESPESADOR 02",
+      "TAG_OPC": "SERVER_OSS01M::3550_PU_0021_MOVS_SPS/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4940,
+      "Nombre_TAG": "CNN-3550-PU_1008_MOVS_SPS.CUR",
+      "Descripcion": "AGUA DE PROCESO DILUCION STANDBY",
+      "TAG_OPC": "SERVER_OSS01M::3550_PU_1008_MOVS_SPS/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4939,
+      "Nombre_TAG": "CNN-3550-PU_1012_MOVS_SPS.CUR",
+      "Descripcion": "AGUA DE PROCESO DILUCION STANDBY",
+      "TAG_OPC": "SERVER_OSS01M::3550_PU_1012_MOVS_SPS/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8963,
+      "Nombre_TAG": "CNN-3200-CV_0007_MO09.CUR",
+      "Descripcion": "CORRIENTE CORREA CV_0007 (CARRO) MO09",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0007_MO9/Curr.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_07",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8962,
+      "Nombre_TAG": "CNN-3200-CV_0006_MO_VDF.CUR",
+      "Descripcion": "CORRIENTE CORREA CV06",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0006_MO_VDF/Corriente.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_06",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8960,
+      "Nombre_TAG": "CNN-3200-CV_0003_MO.CUR",
+      "Descripcion": "CORRIENTE CORREA CV03",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0003_MO/M3.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "CV_03",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8959,
+      "Nombre_TAG": "CNN-3200-CV_0002_MO.CUR",
+      "Descripcion": "CORRIENTE CORREA CV_0002",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0002_MO/Corriente.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CV_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4934,
+      "Nombre_TAG": "CNN-3400-SN_0012.CUR",
+      "Descripcion": "LUBRICACION DE CAJA DE CAMBIOS BDP0001",
+      "TAG_OPC": "SERVER_OSS01M::3400_SN_0012/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4933,
+      "Nombre_TAG": "CNN-3400-SN_0013.CUR",
+      "Descripcion": "GLORES BBA REFRIGERACION BDP0001",
+      "TAG_OPC": "SERVER_OSS01M::3400_SN_0013/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4932,
+      "Nombre_TAG": "CNN-3500-AG_0002_MO.CUR",
+      "Descripcion": "POWER END BBA REFRIGERACION BDP0001",
+      "TAG_OPC": "SERVER_OSS01M::3500_AG_0002_MO/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4928,
+      "Nombre_TAG": "CNN-3500-AG_0010-MO.CUR",
+      "Descripcion": "MOTOR 2 HARNERO SN12",
+      "TAG_OPC": "SERVER_OSS01M::3500_AG_0010_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4927,
+      "Nombre_TAG": "CNN-3500-FC_0001_PU_MO.CUR",
+      "Descripcion": "GLORES BBA REFRIGERACION BDP0002",
+      "TAG_OPC": "SERVER_OSS01M::3500_FC_0001_PU_MO/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4926,
+      "Nombre_TAG": "CNN-3500-FC_0002_PU_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3500_FC_0002_PU_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4925,
+      "Nombre_TAG": "CNN-3500-FC_0003_PU_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3500_FC_0003_PU_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4924,
+      "Nombre_TAG": "CNN-3500-FC_0004_PU_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3500_FC_0004_PU_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4923,
+      "Nombre_TAG": "CNN-3500-PU_0030-MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3500_PU_0030_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4922,
+      "Nombre_TAG": "CNN-3500-PU_0033_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3500_PU_0033_MO/M1.AV#Value",
+      "Area": "3500",
+      "Subarea": "3500 Sin Clasificar",
+      "Sistema": "3500 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4921,
+      "Nombre_TAG": "CNN-3100-PU_1108B_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1108B_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8958,
+      "Nombre_TAG": "CNN-3200-CV_0001_MO.CUR",
+      "Descripcion": "CORRIENTE MOTOR CORREA CV_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0001/Corriente.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CV_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8950,
+      "Nombre_TAG": "CNN-3200-CR_0002_MO.CUR",
+      "Descripcion": "CORRIENTE CHANCADOR SECUNDARIO",
+      "TAG_OPC": "SERVER_OSS01M::32000_CR_0002_MO/M2.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8949,
+      "Nombre_TAG": "CNN-3200-CR_0001_MO.CUR",
+      "Descripcion": "CORRIENTE CHANCADOR PRIMARIO CR_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0001_MO/Corriente.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 8942,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO/Corriente.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4938,
+      "Nombre_TAG": "CNN-3200-BH_0001_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH01",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0001_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "BH_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4937,
+      "Nombre_TAG": "CNN-3200-BH_0001_MO02.CUR",
+      "Descripcion": "CORRIENTE VALVULAS ROTATORIAS COLECTOR DE POLVO BH01",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0001_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "BH_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4936,
+      "Nombre_TAG": "CNN-3200-PU_1110-MO.CUR",
+      "Descripcion": "BBA AGUA DE SELLO",
+      "TAG_OPC": "SERVER_OSS01M::3200_PU_1110_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "PU_1110",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4935,
+      "Nombre_TAG": "CNN-3200-PU_1111_MO.CUR",
+      "Descripcion": "BBA AGUA DE SELLO",
+      "TAG_OPC": "SERVER_OSS01M::3200_PU_1111_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "PU_1111",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4920,
+      "Nombre_TAG": "CNN-3200-BH_0002_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH_0002",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0002_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "BH_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4919,
+      "Nombre_TAG": "CNN-3200-BH_0002_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA COLECTOR DE POLVO BH_0002",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0002_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "BH_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4918,
+      "Nombre_TAG": "CNN-3200-BH_0003_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH03",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0003_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "BH_03",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4917,
+      "Nombre_TAG": "CNN-3200-BH_0003_MO02.CUR",
+      "Descripcion": "CORRIENTE VALVULA ROTATORIA COLECTOR DE POLVO BH03",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0003_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "BH_03",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4916,
+      "Nombre_TAG": "CNN-3200-BH_0004_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH04",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0004_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "BH_04",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4915,
+      "Nombre_TAG": "CNN-3200-BH_0004_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA COLECTOR DE POLVO BH04",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0004_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "BH_04",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4914,
+      "Nombre_TAG": "CNN-3200-CR_0002_FA01_MO01.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_FA01_MO01/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4913,
+      "Nombre_TAG": "CNN-3200-CR_0002_FA01_MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_FA01_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4912,
+      "Nombre_TAG": "CNN-3200-CR_0002_FA_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR CHANCADOR SECUNDARIO CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_FA_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4911,
+      "Nombre_TAG": "CNN-3200-CR_0002_HY_MO.CUR",
+      "Descripcion": "UNIDAD HIDRAULICA CHANCADOR 02",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_HY_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4910,
+      "Nombre_TAG": "CNN-3200-CR_0002_LU_HE.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_LU_HE/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4909,
+      "Nombre_TAG": "CNN-3200-CR_0002_LU_MO1.CUR",
+      "Descripcion": "CORRIENTE MOTOR LUBRICACION CHANCADOR SECUNDARIO",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_LU_MO1/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4908,
+      "Nombre_TAG": "CNN-3200-CR_0002_LU_MO2.CUR",
+      "Descripcion": "CORRIENTE MOTOR LUBRICACION 2 CHANCADOR SECUNDARIO",
+      "TAG_OPC": "SERVER_OSS01M::3200_CR_0002_LU_MO2/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4907,
+      "Nombre_TAG": "CNN-3200-PP_0001_HE06.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_HE06/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4906,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO03.CUR",
+      "Descripcion": "CORRIENTE BOMBA HIDRAULICA HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4897,
+      "Nombre_TAG": "CNN-3100-PU_1106A_MO.CUR",
+      "Descripcion": "CORRIENTE PUMP 1106A",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1106A/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4896,
+      "Nombre_TAG": "CNN-3100-PU_1106B_MO.CUR",
+      "Descripcion": "CORRIENTE PUMP 1106B",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1106B/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4895,
+      "Nombre_TAG": "CNN-3100-PU_1108A_MO.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1108A_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4894,
+      "Nombre_TAG": "CNN-4110-PU_1112.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::4110_PU_1112/M1.AV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4893,
+      "Nombre_TAG": "CNN-3710-PU_0200.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3710_PU_0200/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3710",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4892,
+      "Nombre_TAG": "CNN-3710-TH_0001.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3710_TH_0001/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3710",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4891,
+      "Nombre_TAG": "CNN-3710-TH_0002.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3710_TH_0002/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3710",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4890,
+      "Nombre_TAG": "CNN-3720-PU_0001.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3720_PU_0001/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3720",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4889,
+      "Nombre_TAG": "CNN-3720-PU_0002.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3720_PU_0002/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3720",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4888,
+      "Nombre_TAG": "CNN-3740-PU_0001.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3740_PU_0001/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3740",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4887,
+      "Nombre_TAG": "CNN-3740-PU_0002.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3740_PU_0002/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3740",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4886,
+      "Nombre_TAG": "CNN-3740-PU_0003.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3740_PU_0003/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3740",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4885,
+      "Nombre_TAG": "CNN-3740-PU_0004.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3740_PU_0004/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3740",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4884,
+      "Nombre_TAG": "CNN-3760-PU_0001.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0001/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4883,
+      "Nombre_TAG": "CNN-3760-PU_0002.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0002/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4882,
+      "Nombre_TAG": "CNN-3760-PU_0004.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0004/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4881,
+      "Nombre_TAG": "CNN-3760-PU_0005.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0005/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4880,
+      "Nombre_TAG": "CNN-3760-PU_0006.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0006/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4879,
+      "Nombre_TAG": "CNN-3760-PU_0007.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3760_PU_0007/M1.AV#Value",
+      "Area": "3700",
+      "Subarea": "3760",
+      "Sistema": "3700 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4878,
+      "Nombre_TAG": "CNN-3810-PU_0001_M10.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M10/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4877,
+      "Nombre_TAG": "CNN-3810-PU_0001_M12.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M12/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4876,
+      "Nombre_TAG": "CNN-3610-SN_1002_MO01.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1002_MO01/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4875,
+      "Nombre_TAG": "CNN-3610-SN_1002_MO02.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1002_MO02/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4874,
+      "Nombre_TAG": "CNN-4110-PP_0110-MO.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::4110_PP_0110_MO/M1.AV#Value",
+      "Area": "4100",
+      "Subarea": "4110",
+      "Sistema": "Estación de Bombeo",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4873,
+      "Nombre_TAG": "CNN-3810-PU_0001_M15.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M15/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4872,
+      "Nombre_TAG": "CNN-3810-PU_0001_M1B.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M1B/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4871,
+      "Nombre_TAG": "CNN-3810-PU_0001_M2.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M2/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4870,
+      "Nombre_TAG": "CNN-3810-PU_0001_M6.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0001_M6/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4869,
+      "Nombre_TAG": "CNN-3810-PU_0002_M10.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M10/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4868,
+      "Nombre_TAG": "CNN-3810-PU_0002_M12.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M12/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4867,
+      "Nombre_TAG": "CNN-3810-PU_0002_M15.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M15/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4866,
+      "Nombre_TAG": "CNN-3810-PU_0002_M1B.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M1B/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4865,
+      "Nombre_TAG": "CNN-3810-PU_0002_M2.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M2/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4864,
+      "Nombre_TAG": "CNN-3810-PU_0002_M6.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0002_M6/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4863,
+      "Nombre_TAG": "CNN-3810-PU_0003_M10.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M10/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4862,
+      "Nombre_TAG": "CNN-3810-PU_0003_M12.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M12/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4861,
+      "Nombre_TAG": "CNN-3810-PU_0003_M15.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M15/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4860,
+      "Nombre_TAG": "CNN-3810-PU_0003_M1B.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M1B/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4859,
+      "Nombre_TAG": "CNN-3810-PU_0003_M2.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M2/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4858,
+      "Nombre_TAG": "CNN-3810-PU_0003_M6.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3810_PU_0003_M6/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4857,
+      "Nombre_TAG": "CNN-3300-CH_0060-MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_CH_0060_MO/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4905,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO04.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO04/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4904,
+      "Nombre_TAG": "CNN-3200-RB_0001_MO.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_RB_0001_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4903,
+      "Nombre_TAG": "CNN-3200-CR_0001_FA01.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_FA01/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4902,
+      "Nombre_TAG": "CNN-3200-CR_0001_FA02.CUR",
+      "Descripcion": "CORRIENTE DE VENTILADOR FA02 CHANCADOR PRIMARIO",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_FA02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4901,
+      "Nombre_TAG": "CNN-3200-CR_0001_LU01_MO1.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_LU01_MO1/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4900,
+      "Nombre_TAG": "CNN-3200-CR_0001_LU01_MO2.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_LU01_MO2/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4899,
+      "Nombre_TAG": "CNN-3200-CR_0001_LU02.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_LU02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4898,
+      "Nombre_TAG": "CNN-3200-CR_0001_LU_HE.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::CR_0001_LU_HE/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4856,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO13.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO13/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4855,
+      "Nombre_TAG": "CNN-3200-SN_0001_MO.CUR",
+      "Descripcion": "CORRIENTE HARNERO SECUNDARIO SN_0001",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0001_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "SN_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4852,
+      "Nombre_TAG": "CNN-3200-BH_0005_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH05",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0005_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_05",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4851,
+      "Nombre_TAG": "CNN-3200-BH_0005_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA COLECTOR DE POLVO BH05",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0005_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_05",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4850,
+      "Nombre_TAG": "CNN-3200-BH_0005_MO03.CUR",
+      "Descripcion": "CORRIENTE CORREA COLECTOR DE POLVO BH05",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0005_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_05",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4849,
+      "Nombre_TAG": "CNN-3200-BH_0006_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH_0006",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0006_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_06",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4848,
+      "Nombre_TAG": "CNN-3200-BH_0006_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 01 COLECTOR DE POLVO BH_0006",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0006_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_06",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4847,
+      "Nombre_TAG": "CNN-3200-BH_0006_MO03.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 02 COLECTOR DE POLVO BH_0006",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0006_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_06",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4846,
+      "Nombre_TAG": "CNN-3200-BH_0007_MO.CUR",
+      "Descripcion": "CORRIENTE VENTILADOR COLECTOR DE POLVO BH_0007",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0007_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_07",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4845,
+      "Nombre_TAG": "CNN-3200-BH_0007_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 2 COLECTOR DE POLVO BH_0007",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0007_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_07",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4844,
+      "Nombre_TAG": "CNN-3200-BH_0007_MO03.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 1 COLECTOR DE POLVO BH_0007",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0007_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_07",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4843,
+      "Nombre_TAG": "CNN-3200-BH_0007_MO04.CUR",
+      "Descripcion": "CORRIENTE CORREA COLECTOR DE POLVO BH_0007",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0007_MO04/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_07",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4842,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO02.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 01 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO02/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4841,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO03.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 2 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4840,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO04.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 3 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO04/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4839,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO05.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO05/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4837,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO07.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO07/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4836,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO08.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO08/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4835,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO10.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO10/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4834,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO11.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO11/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4833,
+      "Nombre_TAG": "CNN-3200-PP_0001_MO12.CUR",
+      "Descripcion": "Unidirectional drive",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0001_MO12/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4832,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO05.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 4 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO05/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4831,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO06.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 5 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO06/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4830,
+      "Nombre_TAG": "CNN-3200-BH_0008_MO07.CUR",
+      "Descripcion": "CORRIENTE VÁLVULA ROTATORIA 6 COLECTOR DE POLVO BH_0008",
+      "TAG_OPC": "SERVER_OSS01M::3200_BH_0008_MO07/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "BH_08",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4829,
+      "Nombre_TAG": "CNN-3200-CV_0004_MO.CUR",
+      "Descripcion": "CORRIENTE CORREA CV_0004",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0004_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "CV_04",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4819,
+      "Nombre_TAG": "CNN-3200-CV_0010_MO.CUR",
+      "Descripcion": "CORRIENTE CORREA CV10",
+      "TAG_OPC": "SERVER_OSS01M::3200_CV_0010_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "CV_10",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4802,
+      "Nombre_TAG": "CNN-3300-BH_0009_CO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0009_CO/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4818,
+      "Nombre_TAG": "CNN-3200-PP_0002_HE06.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_HE06/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4817,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO03.CUR",
+      "Descripcion": "CORRIENTE BOMBA HIDRAULICA HPGR PP-02",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO03/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4816,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO10.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO10/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4815,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO11.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO11/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4795,
+      "Nombre_TAG": "CNN-3100-PU_1103_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1103_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4794,
+      "Nombre_TAG": "CNN-3100-PU_1104_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1104_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4793,
+      "Nombre_TAG": "CNN-3100-PU_1105_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1105_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4792,
+      "Nombre_TAG": "CNN-3100-PU_1106_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1106_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4791,
+      "Nombre_TAG": "CNN-3100-PU_1107_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1107_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4790,
+      "Nombre_TAG": "CNN-3100-TH_0001_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3100_TH_0001_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4789,
+      "Nombre_TAG": "CNN-3600-AG_0003_MO01.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_AG_0003_MO01/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4788,
+      "Nombre_TAG": "CNN-3600-AG_0003_MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_AG_0003_MO02/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4787,
+      "Nombre_TAG": "CNN-3600-AG_0004_MO01.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_AG_0004_MO01/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4786,
+      "Nombre_TAG": "CNN-3600-AG_0004_MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_AG_0004_MO02/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4785,
+      "Nombre_TAG": "CNN-3600-PU_0039_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_PU_0039_MO/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4784,
+      "Nombre_TAG": "CNN-3600-PU_0040-MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_PU_0040_MO/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4783,
+      "Nombre_TAG": "CNN-3600-TH_0001_ST.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3600_TH_0001_ST/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4782,
+      "Nombre_TAG": "CNN-3610-SN_1001.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1001/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4781,
+      "Nombre_TAG": "CNN-3610-SN_1001_MO01.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1001_MO01/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4780,
+      "Nombre_TAG": "CNN-3610-SN_1001_MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1001_MO02/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4779,
+      "Nombre_TAG": "CNN-3610-SN_1002.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3610_SN_1002/M1.AV#Value",
+      "Area": "3600",
+      "Subarea": "3600 Sin clasificar",
+      "Sistema": "3600 Sin clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4776,
+      "Nombre_TAG": "CNN-3100-PU_1101_MO.CUR",
+      "Descripcion": "CORRIENTE PUMP 1101",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1101_MO/M1.AV#Value",
+      "Area": "3100",
+      "Subarea": "Servicios Generales",
+      "Sistema": "Servicios Generales",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4775,
+      "Nombre_TAG": "CNN-3100-PU_1102_MO.CUR",
+      "Descripcion": "CORRIENTE PUMP 1102",
+      "TAG_OPC": "SERVER_OSS01M::3100_PU_1102_MO/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4774,
+      "Nombre_TAG": "CNN-3400-AG_0001_MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_AG_0001_MO02/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4763,
+      "Nombre_TAG": "CNN-3400-CN_0020-MO01.CUR",
+      "Descripcion": "Corriente Tambor FINISHER 20-01",
+      "TAG_OPC": "SERVER_OSS01M::3400_CN_0020_MO01/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4762,
+      "Nombre_TAG": "CNN-3400-CN_0020-MO02.CUR",
+      "Descripcion": "Corriente Tambor FINISHER 20-02",
+      "TAG_OPC": "SERVER_OSS01M::3400_CN_0020_MO02/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4761,
+      "Nombre_TAG": "CNN-3400-CT_1001_M001.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_CT_1001_M001/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4760,
+      "Nombre_TAG": "CNN-3400-CT_1001_M002.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_CT_1001_M002/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4759,
+      "Nombre_TAG": "CNN-3400-CT_1002_M001.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_CT_1002_M001/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4758,
+      "Nombre_TAG": "CNN-3400-CT_1003_M001.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3400_CT_1003_M001/M1.AV#Value",
+      "Area": "3400",
+      "Subarea": "3400 Sin Clasificar",
+      "Sistema": "3400 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4755,
+      "Nombre_TAG": "CNN-3300-CN_0010-MO.CUR",
+      "Descripcion": "Corriente Tambor ROUGHER 10",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0010_MO/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4750,
+      "Nombre_TAG": "CNN-3300-CV_0018_MO.CUR",
+      "Descripcion": "CORRIENTE CORREA CV_0018",
+      "TAG_OPC": "SERVER_OSS01M::3300_CV_0018/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "Alimentación",
+      "Sistema": "CV_18",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4749,
+      "Nombre_TAG": "CNN-3300-PU_0004_MO.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_PU_0004_MO/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4748,
+      "Nombre_TAG": "CNN-3300-SN_0010.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4747,
+      "Nombre_TAG": "CNN-3300-SN_0010-MO01.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010_MO01/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4746,
+      "Nombre_TAG": "CNN-3300-SN_0010-MO02.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0010_MO02/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4745,
+      "Nombre_TAG": "CNN-3300-SN_0011.CUR",
+      "Descripcion": "BBA DE LIQUIDO DE PROPULSION BDP0003",
+      "TAG_OPC": "SERVER_OSS01M::3300_SN_0011/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4742,
+      "Nombre_TAG": "CNN-3400-AG_0001_MO01.CUR",
+      "Descripcion": "POWER END BBA REFRIGERACION BDP0003",
+      "TAG_OPC": "SERVER_OSS01M::3400_AG_0001_MO01/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3800 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4741,
+      "Nombre_TAG": "CNN-3300-BH_0010-MO03.CUR",
+      "Descripcion": "GLORES BBA REFRIGERACION BDP0003",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0010_MO03/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4740,
+      "Nombre_TAG": "CNN-3300-BH_0010-MO04.CUR",
+      "Descripcion": "LUBRICACION DE CAJA DE CAMBIOS BDP0003",
+      "TAG_OPC": "SERVER_OSS01M::3300_BH_0010_MO04/M1.AV#Value",
+      "Area": "3800",
+      "Subarea": "3810",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4736,
+      "Nombre_TAG": "CNN-3300-CN_0003_MO.CUR",
+      "Descripcion": "CORRIENTE TAMBOR ROUGHER 03",
+      "TAG_OPC": "SERVER_OSS01M::3300_CN_0003_MO/M1.AV#Value",
+      "Area": "3300",
+      "Subarea": "3300 Sin Clasificar",
+      "Sistema": "3300 Sin Clasificar",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4814,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO12.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO12/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4813,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO13.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO13/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4812,
+      "Nombre_TAG": "CNN-3200-SN_0002_MO.CUR",
+      "Descripcion": "CORRIENTE HARNERO SN02",
+      "TAG_OPC": "SERVER_OSS01M::3200_SN_0002_MO/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "SN_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4803,
+      "Nombre_TAG": "CNN-3200-TR_0001_MO01.CUR",
+      "Descripcion": "CORRIENTE CORREA TRIPPER",
+      "TAG_OPC": "SERVER_OSS01M::3200_TR_0001_MO01/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Acopio Fino",
+      "Sistema": "TR_01",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4800,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO04.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO04/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4799,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO05.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO05/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4797,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO07.CUR",
+      "Descripcion": "SIMOCODE Partidor Directo",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO07/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 4796,
+      "Nombre_TAG": "CNN-3200-PP_0002_MO08.CUR",
+      "Descripcion": "CORRIENTE MO08 PRENSA PP02",
+      "TAG_OPC": "SERVER_OSS01M::3200_PP_0002_MO08/M1.AV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "Amp"
+    },
+    {
+      "Identificador": 9048,
+      "Nombre_TAG": "CNN-3200-PI32668.PV",
+      "Descripcion": "PRESIÓN HPGR 2 LADO IZQUIERDO",
+      "TAG_OPC": "SERVER_OSS01M::PI_32668/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 9047,
+      "Nombre_TAG": "CNN-3200-PI32669.PV",
+      "Descripcion": "PRESIÓN HPGR 2 LADO DERECHO",
+      "TAG_OPC": "SERVER_OSS01M::PI_32669/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 9046,
+      "Nombre_TAG": "CNN-3200-PIT32439.PV2",
+      "Descripcion": "PRESION LADO DERECHO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::PI_32439/CAI_Eth.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 9044,
+      "Nombre_TAG": "CNN-3200-PI_32157.PV",
+      "Descripcion": "PRESIÓN ACUMULADOR DE AIRE CR01",
+      "TAG_OPC": "SERVER_OSS01M::PI_32157/AI_PA.PV_Out#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "Bar"
+    },
+    {
+      "Identificador": 9346,
+      "Nombre_TAG": "CNN-3100-PI_31081.PV",
+      "Descripcion": "PRESION AIRE PLANTA",
+      "TAG_OPC": "SERVER_OSS01M::PI_31081/AI_PA.PV_Out#Value",
+      "Area": "3100",
+      "Subarea": "Servicios generales",
+      "Sistema": "Servicios generales",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6302,
+      "Nombre_TAG": "CNN-3200-PIT32056.PV",
+      "Descripcion": "PRESION CHANCADOR PRIMARIO CR_0001",
+      "TAG_OPC": "SERVER_OSS01M::PI_32056_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6300,
+      "Nombre_TAG": "CNN-3200-PIT_Diff_41_42_43.PV",
+      "Descripcion": "Indicacion Presion, Chancador Primario 3200_CR_0001",
+      "TAG_OPC": "SERVER_OSS01M::PI_Diff_41_42_43/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Primario",
+      "Sistema": "CR_01",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6261,
+      "Nombre_TAG": "CNN-3200-ZIT32492.PV",
+      "Descripcion": "GAP RODILLOS HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::ZI_32492/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6248,
+      "Nombre_TAG": "CNN-3200-PIT32668.PV",
+      "Descripcion": "PRESION LADO IZQUIERDO HPGR PP-02",
+      "TAG_OPC": "SERVER_OSS01M::PI_32668/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6247,
+      "Nombre_TAG": "CNN-3200-PIT32669.PV",
+      "Descripcion": "PRESION LADO DERECHO HPGR PP-02",
+      "TAG_OPC": "SERVER_OSS01M::PI_32669/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Cuaternario",
+      "Sistema": "PP_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6206,
+      "Nombre_TAG": "CNN-3200-PDIT32272.PV",
+      "Descripcion": "Indicacion Presion diferencial, Sist. Lubricacion Chancador 3200_CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::PDI_32272_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6205,
+      "Nombre_TAG": "CNN-3200-PIT32268.PV",
+      "Descripcion": "Indicacion Presion, Chancador Secundario 3200_CR_0002",
+      "TAG_OPC": "SERVER_OSS01M::PI_32268_Eth/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Secundario",
+      "Sistema": "CR_02",
+      "Unidad_de_Ingenieria": "bar"
+    },
+    {
+      "Identificador": 6204,
+      "Nombre_TAG": "CNN-3200-PIT32438.PV",
+      "Descripcion": "PRESION LADO IZQUIERDO HPGR PP-01 PRENSA TERCIARIA",
+      "TAG_OPC": "SERVER_OSS01M::PI_32438/CAI_Eth.PV#Value",
+      "Area": "3200",
+      "Subarea": "Chancado Terciario",
+      "Sistema": "PP_01",
+      "Unidad_de_Ingenieria": "bar"
+    }
+  ],
+  "_lambda_received_at": "2026-07-08T13:18:04.402318",
+  "_source_lambda": "cnnalerta1"
+}

@@ -1,0 +1,314 @@
+{
+    "jerarquia": [
+        {
+            "area": 3100,
+            "subareas": [
+                {
+                    "subarea": "Servicios Generales",
+                    "sistemas": [
+                        "Servicios Generales"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3200,
+            "subareas": [
+                {
+                    "subarea": "Acopio Fino",
+                    "sistemas": [
+                        "BH_09",
+                        "CV_12",
+                        "CV_13",
+                        "CV_14",
+                        "CV_15",
+                        "CV_16",
+                        "FE_17",
+                        "FE_18",
+                        "FE_19",
+                        "FE_20",
+                        "FE_21",
+                        "FE_22",
+                        "FE_23",
+                        "FE_24",
+                        "FE_25",
+                        "FE_26",
+                        "FE_27",
+                        "FE_28",
+                        "FE_29",
+                        "FE_30",
+                        "FE_31",
+                        "FE_32",
+                        "FE_33",
+                        "FE_34",
+                        "FE_35",
+                        "FE_36",
+                        "FE_37",
+                        "FE_38",
+                        "FE_39",
+                        "FE_40",
+                        "FE_41",
+                        "FE_42",
+                        "FE_43",
+                        "SK_01",
+                        "TR_01"
+                    ]
+                },
+                {
+                    "subarea": "Chancado Cuaternario",
+                    "sistemas": [
+                        "BH_05",
+                        "BH_06",
+                        "BH_07",
+                        "BH_08",
+                        "BI_03",
+                        "CV_06",
+                        "CV_07",
+                        "CV_08",
+                        "CV_09",
+                        "CV_10",
+                        "FE_10",
+                        "FE_11",
+                        "FE_12",
+                        "FE_13",
+                        "FE_14",
+                        "FE_15",
+                        "FE_16",
+                        "PP_02",
+                        "SN_02",
+                        "SN_03",
+                        "SN_04",
+                        "SN_05",
+                        "SN_06",
+                        "SN_07"
+                    ]
+                },
+                {
+                    "subarea": "Chancado Primario",
+                    "sistemas": [
+                        "BH_01",
+                        "CR_01",
+                        "CV_01",
+                        "FE_01",
+                        "PU_1110",
+                        "PU_1111"
+                    ]
+                },
+                {
+                    "subarea": "Chancado Secundario",
+                    "sistemas": [
+                        "BH_02",
+                        "BI_02",
+                        "CR_02",
+                        "CV_02",
+                        "FE_02",
+                        "FE_03",
+                        "FE_04",
+                        "FE_05",
+                        "SN_01"
+                    ]
+                },
+                {
+                    "subarea": "Chancado Terciario",
+                    "sistemas": [
+                        "BH_03",
+                        "BH_04",
+                        "CV_03",
+                        "CV_04",
+                        "FE_09",
+                        "PP_01"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3300,
+            "subareas": [
+                {
+                    "subarea": "3300 Sin Clasificar",
+                    "sistemas": [
+                        "3300 Sin Clasificar",
+                        "BX_1001",
+                        "BX_1002",
+                        "BX_1004",
+                        "CN_02"
+                    ]
+                },
+                {
+                    "subarea": "Alimentación",
+                    "sistemas": [
+                        "CV_16",
+                        "CV_17",
+                        "CV_18",
+                        "FE_44",
+                        "FE_45"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3400,
+            "subareas": [
+                {
+                    "subarea": "3400 Sin Clasificar",
+                    "sistemas": [
+                        "3400 Sin Clasificar",
+                        "BX_04",
+                        "BX_05",
+                        "BX_06",
+                        "BX_11",
+                        "BX_13",
+                        "BX_16",
+                        "CY_01",
+                        "CY_02",
+                        "HC_01",
+                        "HC_02",
+                        "MM_01",
+                        "MM_02",
+                        "PP_02",
+                        "TH-0001",
+                        "TH-0002",
+                        "TK_10",
+                        "TK_1101"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3500,
+            "subareas": [
+                {
+                    "subarea": "3500 Sin Clasificar",
+                    "sistemas": [
+                        "3500 Sin Clasificar",
+                        "BX_11",
+                        "TK_02",
+                        "TK_1101"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3600,
+            "subareas": [
+                {
+                    "subarea": "3600 Sin Clasificar",
+                    "sistemas": [
+                        "3600 Sin Clasificar",
+                        "BX_11",
+                        "BX_12",
+                        "TH_0001",
+                        "TH_0002",
+                        "TK_03",
+                        "TK_04"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3700,
+            "subareas": [
+                {
+                    "subarea": "3700 Sin Clasificar",
+                    "sistemas": [
+                        "3700 Sin Clasificar",
+                        "TH-0001",
+                        "TH_01",
+                        "TH_02",
+                        "TK_1100",
+                        "TK_1102"
+                    ]
+                },
+                {
+                    "subarea": "3710",
+                    "sistemas": [
+                        "3700 Sin Clasificar",
+                        "TH-0001",
+                        "TH-0002",
+                        "TH_01",
+                        "TH_02"
+                    ]
+                },
+                {
+                    "subarea": "3720",
+                    "sistemas": [
+                        "3700 Sin Clasificar"
+                    ]
+                },
+                {
+                    "subarea": "3740",
+                    "sistemas": [
+                        "3700 Sin Clasificar"
+                    ]
+                },
+                {
+                    "subarea": "3760",
+                    "sistemas": [
+                        "3700 Sin Clasificar"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 3800,
+            "subareas": [
+                {
+                    "subarea": "3800 Sin Clasificar",
+                    "sistemas": [
+                        "3800 Sin Clasificar"
+                    ]
+                },
+                {
+                    "subarea": "3810",
+                    "sistemas": [
+                        "3800 Sin Clasificar",
+                        "BDP1",
+                        "BDP2",
+                        "BDP3"
+                    ]
+                },
+                {
+                    "subarea": "GEHO",
+                    "sistemas": [
+                        "3800 Sin Clasificar"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": 4100,
+            "subareas": [
+                {
+                    "subarea": "4110",
+                    "sistemas": [
+                        "Estación de Bombeo"
+                    ]
+                },
+                {
+                    "subarea": "4120",
+                    "sistemas": [
+                        "Estación de Válvulas 1"
+                    ]
+                },
+                {
+                    "subarea": "4130",
+                    "sistemas": [
+                        "Estación de Válvulas 2"
+                    ]
+                },
+                {
+                    "subarea": "4140",
+                    "sistemas": [
+                        "Estación de Válvulas Terminal"
+                    ]
+                },
+                {
+                    "subarea": "4170",
+                    "sistemas": [
+                        "Estación de Monitoreo"
+                    ]
+                }
+            ]
+        }
+    ]
+}

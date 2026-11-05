@@ -1,0 +1,1 @@
+En este archivo te encargas de enrutar las vistas, es decir, darle una url a tu pagina y asociarlo con una vista o view

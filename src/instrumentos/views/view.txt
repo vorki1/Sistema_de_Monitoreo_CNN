@@ -1,0 +1,2 @@
+En esta carpeta definiras las paginas o vistas que vera el usuario, por ejemplo:
+La pagina de iniciar sesion, la pagina de ver instrumentos, la pagina para ver los datos del sensor
